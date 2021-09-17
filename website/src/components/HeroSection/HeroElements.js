@@ -12,7 +12,7 @@ position: relative;
 z-index: 1;
 
 //make the background darker
-:before{
+::before{
     content:'';
     position: absolute;
     top:0; 
