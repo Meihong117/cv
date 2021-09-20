@@ -18,7 +18,7 @@ const Hero = () => {
                 <HeroH1>Enjoy The Nature</HeroH1>
                 <HeroP>Nature is made of everything we see around us – trees, flowers, plants, animals, sky, mountains, forests and more.</HeroP>
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='ture' dark='true'>Get Started {hover? <ArrowForward />: <ArrowRight />}</Button>
+                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='ture' dark='true' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Get Started {hover? <ArrowForward />: <ArrowRight />}</Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
