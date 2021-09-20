@@ -1,28 +1,50 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import {Nav, NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn, NavBtnLink} from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
+import { IconContext } from 'react-icons/lib'
+import { animateScroll as scroll } from 'react-scroll'
 
 const NavBar = ({toggle}) => {
+    // when scroll the window, the navbar-color will change to black
+    const [scrollNav, setScrollNav]=useState(false)
+    const changeNav=()=>{
+        if(window.scrollY>=80){
+            setScrollNav(true)
+        }else{
+            setScrollNav(false)
+        }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+        
+    }, [])
+    // scroll to top 
+    const toggleHome=()=>{
+        scroll.scrollToTop()
+    }
+
     return (
         <>
-            <Nav>
+        <IconContext.Provider value={{color: 'yellow'}}>
+            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/'>LOGO</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>LOGO</NavLogo>
                     <MobileIcon  onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about' >About</NavLinks>
+                            {/* navbar height=80px */}
+                            <NavLinks to='about' spy={true} smooth={true} offset={-80} duration={500} exact='true'>About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover' >Discover</NavLinks>
+                            <NavLinks to='discover' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Discover</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services' >Services</NavLinks>
+                            <NavLinks to='services' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Services</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='signup' >Sign Up</NavLinks>
+                            <NavLinks to='signup' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Sign Up</NavLinks>
                         </NavItem>
                     </NavMenu>
 
@@ -32,6 +54,7 @@ const NavBar = ({toggle}) => {
 
                 </NavbarContainer>
             </Nav>
+            </IconContext.Provider>
         </>
     )
 }
