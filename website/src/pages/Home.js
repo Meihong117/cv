@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Footer from '../components/Footer/Footer'
 import Hero from '../components/HeroSection/Hero'
 import { homeObjectOne,homeObjectTwo,homeObjectThree } from '../components/InfoSection/Data'
 import InfoSection from '../components/InfoSection/InfoSection'
@@ -22,6 +23,7 @@ const toggle=()=>{
             <InfoSection {...homeObjectTwo}/>
             <Services />
             <InfoSection {...homeObjectThree}/>
+            <Footer />
 
 
         </>
