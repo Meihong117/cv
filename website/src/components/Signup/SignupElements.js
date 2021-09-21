@@ -77,6 +77,10 @@ text-align: center;
 
 `;
 
+export const FormSection=styled.section``
+
+
+
 export const FormLabel=styled.div`
 margin-bottom: 8px;
 font-size: 14px;
@@ -110,3 +114,4 @@ cursor: pointer;
 text-decoration: none;
 `;
 
+export const Check=styled.div``

@@ -15,6 +15,7 @@ const SignIn = () => {
                     <FormInput type='password' required />
                     <FormButton type='submit'>Continue</FormButton>
                     <Text to='/'>Forgot Password?</Text>
+                    <Text to='/signup'>Sign up for a new account?</Text>
                 </Form>
                 </FormContent>
             </FormWrap>
