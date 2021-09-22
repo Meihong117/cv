@@ -10,9 +10,9 @@ const SignIn = () => {
                     <Form action='#'>
                     <FormH1>Sign In</FormH1>
                     <FormLabel htmlFor='for'>Email</FormLabel>
-                    <FormInput type='email' required />
+                    <FormInput type='email' required placeholder='Please enter your email'/>
                     <FormLabel htmlFor='for'>Password</FormLabel>
-                    <FormInput type='password' required />
+                    <FormInput type='password' required placeholder='Please enter your password'/>
                     <FormButton type='submit'>Continue</FormButton>
                     <Text to='/'>Forgot Password?</Text>
                     <Text to='/signup'>Sign up for a new account?</Text>

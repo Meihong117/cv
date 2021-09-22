@@ -11,14 +11,13 @@ const SignUp = () => {
      
     return (
         <>
-                <Container >
-                    <FormWrap>
-                        <Icon to='/'>LOGO</Icon>
+            <Container >
+                <FormWrap>
+                    <Icon to='/'>LOGO</Icon>
                         <FormContent>
                             <Form action='#'>
-                            <FormH1>Sign Up</FormH1>
-        
-                           
+                                <FormH1>Sign Up</FormH1>
+                                
                                 <FormLabel htmlFor='username'>Username</FormLabel>
                                 <FormInput 
                                 type='username' 
@@ -28,8 +27,6 @@ const SignUp = () => {
                                 // value={data.username}
                                 // onChange={updateField}
                                 />
-                            
-                            
                            
                                 <FormLabel htmlFor='email'>Email</FormLabel>
                                 <FormInput 
@@ -40,8 +37,6 @@ const SignUp = () => {
                                 // value={data.email}
                                 // onChange={updateField}
                                 />
-                           
-                            
                         
                                 <FormLabel htmlFor='password'>Password</FormLabel>
                                 <FormInput 
@@ -53,8 +48,6 @@ const SignUp = () => {
                                 // onChange={updateField}
                                 />
                           
-                            
-                          
                                 <FormLabel htmlFor='password'>Confirm Password</FormLabel>
                                 <FormInput 
                                 type='password' 
@@ -65,15 +58,13 @@ const SignUp = () => {
                                 // onChange={updateField}
                                 />
                                 
-                            <FormButton type='submit' to='/'>Sign Up</FormButton>
+                                <FormButton type='submit' to='/success'>Sign Up</FormButton>
         
-
-
-                            <Text to='/signup'>Aready Have an account? Login here</Text>
+                                <Text to='/signin'>Aready Have an account? Login here</Text>
                         </Form>
-                        </FormContent>
-                    </FormWrap>
-                </Container>
+                    </FormContent>
+                </FormWrap>
+            </Container>
                 
                 
         

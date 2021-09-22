@@ -89,13 +89,13 @@ color: #fff;
 
 export const FormInput=styled.input`
 padding: 16px 16px;
-margin-bottom: 32px;
+margin-bottom: 18px;
 border: none;
 border-radius: 4px;
 `;
 
 
-export const FormButton=styled.button`
+export const FormButton=styled(Link)`
 background: #01bf71;
 padding: 16px 0;
 border: none;
@@ -103,6 +103,8 @@ border-radius: 4px;
 color: #fff;
 font-size: 20px;
 cursor: pointer;
+text-decoration: none;
+text-align: center;
 `;
 
 export const Text=styled(Link)`
