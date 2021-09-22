@@ -54,5 +54,5 @@ export const homeObjectThree={
     dark: false,
     primary: false,
     darkText:true,
-    to:'/'
+    to:'signup'
 }
