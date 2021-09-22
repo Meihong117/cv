@@ -8,8 +8,8 @@ export const homeObjectOne={
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transaction with zero fees',
+    topLine: 'Learn More About Nature',
+    headline: 'Keep reading to find the right word to describe your picturesque scene',
     description: 'Description here',
     buttonLabel: 'See Details',
     imgStart: false,
@@ -17,7 +17,8 @@ export const homeObjectOne={
     alt:'Car',
     dark: true,
     primary: true,
-    darkText:false
+    darkText:false,
+    to:'describtion'
 }
 
 export const homeObjectTwo={
@@ -34,7 +35,8 @@ export const homeObjectTwo={
     alt:'Car',
     dark: false,
     primary: false,
-    darkText:true
+    darkText:true,
+    to:'/'
 }
 
 export const homeObjectThree={
@@ -51,5 +53,6 @@ export const homeObjectThree={
     alt:'Car',
     dark: false,
     primary: false,
-    darkText:true
+    darkText:true,
+    to:'/'
 }
