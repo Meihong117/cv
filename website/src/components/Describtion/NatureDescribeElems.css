@@ -30,13 +30,13 @@
 }
 
 /* pagination.js */
-nav {
+.page-nav {
   max-width: max-content;
   margin: 0 auto;
 }
 .pagination {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin: 10px;
 }
 .page-item {

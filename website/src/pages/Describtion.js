@@ -9,7 +9,7 @@ const Describtion = () => {
     const [posts,SetPosts]=useState([])
     const [loading, setLoading]=useState(false)
     const [currentPage, setCurrentPage]=useState(1)
-    const [postsPerPage, SetPostsPerPage]=useState(10)
+    const [postsPerPage]=useState(10)
 
     useEffect(() => {
         const fetchPosts=async()=>{

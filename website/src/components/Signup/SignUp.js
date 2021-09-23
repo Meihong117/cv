@@ -1,8 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 // import useForm from './useForm';
 // import validate from './validateInfo';
-import FormSuccess from './FormSuccess'
-import {Container,FormWrap,Icon, Form,FormH1, FormLabel,FormInput,FormButton, Text, FormContent, FormSection,Check} from './SignupElements'
+// import FormSuccess from './FormSuccess'
+import {Container,FormWrap,Icon, Form,FormH1, FormLabel,FormInput,FormButton, Text, FormContent} from './SignupElements'
 
 const SignUp = () => {
 

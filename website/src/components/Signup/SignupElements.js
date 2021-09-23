@@ -77,7 +77,7 @@ text-align: center;
 
 `;
 
-export const FormSection=styled.section``
+// export const FormSection=styled.section``
 
 
 
@@ -116,4 +116,4 @@ cursor: pointer;
 text-decoration: none;
 `;
 
-export const Check=styled.div``
+// export const Check=styled.div``

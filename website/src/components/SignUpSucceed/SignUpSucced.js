@@ -1,6 +1,6 @@
 import React from 'react'
 import { BiHappy } from "react-icons/bi";
-import {Container,SuccessWrapper,SuccessTop,Icon,SuccessText, SuccessBottom,Content,ContinueButton,SuccessContainer} from './SignUpSuccedElems'
+import {Container,SuccessWrapper,SuccessTop,Icon,SuccessText, SuccessBottom,Content,ContinueButton} from './SignUpSuccedElems'
 
 const SignUpSucced = () => {
     return (
