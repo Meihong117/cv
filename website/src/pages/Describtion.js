@@ -30,13 +30,21 @@ const Describtion = () => {
     const paginate=(pageNumber)=>{
         setCurrentPage(pageNumber)
     }
+
+    // Search - input
+    const [searchTerm, setSearchTerm] =useState('')
+
     return (
         <div className='container'>
             <a href="/" className='logo'>LOGO</a>
             <div className='wrapper'>
                 <div>
                     <h1 className='text-primary'>Nature Describtions</h1>
-                    <NatureDescribe posts={currentPosts} loading={loading} />
+
+                    <div className='input-div'><input type="text" placeholder='Search...' className='search-input' onChange={event=>{setSearchTerm(event.target.value)}} /></div> 
+
+                    <NatureDescribe posts={currentPosts} loading={loading} searchTerm={searchTerm}/>
+
                     <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate}/>
                 </div>
             </div>

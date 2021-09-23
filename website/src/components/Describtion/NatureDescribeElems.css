@@ -37,6 +37,15 @@
   justify-content: center;
   padding: 50px;
 }
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+.search-input {
+  height: 30px;
+  width: 300px;
+  margin-bottom: 20px;
+}
 .text-primary {
   margin-bottom: 20px;
   text-align: center;
@@ -49,7 +58,7 @@
   width: fit-content;
 }
 .list-group {
-  margin: 10px;
+  margin: 15px 30px;
 }
 .list-group-item {
   color: #fff;

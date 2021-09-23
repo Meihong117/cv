@@ -26,9 +26,9 @@ export const homeObjectTwo={
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transaction with zero fees',
-    description: 'Description here',
+    topLine: 'Stories',
+    headline: 'Short stories about nature, environment, pollution',
+    description: 'This section has stories where people feel an affinity to the outdoors, or nature features prominently in the action for good or bad.',
     buttonLabel: 'Discover',
     imgStart: true,
     img: img2,
@@ -36,7 +36,7 @@ export const homeObjectTwo={
     dark: false,
     primary: false,
     darkText:true,
-    to:'/'
+    to:'discover'
 }
 
 export const homeObjectThree={
@@ -44,9 +44,9 @@ export const homeObjectThree={
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transaction with zero fees',
-    description: 'Description here',
+    topLine: 'Join Us',
+    headline: 'Would you like to join us?',
+    description: 'Please click the sign up button below',
     buttonLabel: 'Sign Up',
     imgStart: true,
     img: img3,

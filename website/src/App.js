@@ -5,6 +5,8 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup'
 import SuccessSignup from './pages/SuccessSignup';
 import Describtion from './pages/Describtion';
+import DiscoverNature from './pages/DiscoverNature';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path='/signup' component={Signup} exact />
         <Route path='/success' component={SuccessSignup} exact />
         <Route path='/describtion' component={Describtion} exact />
+        <Route path='/discover' component={DiscoverNature} exact />
 
       </Switch>
     </Router>
