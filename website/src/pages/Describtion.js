@@ -26,19 +26,22 @@ const Describtion = () => {
     const indexOfFirstPost=indexOfLastPost - postsPerPage
     const currentPosts=posts.slice(indexOfFirstPost, indexOfLastPost)
 
-    //Change page
+    // Change page
     const paginate=(pageNumber)=>{
         setCurrentPage(pageNumber)
     }
     return (
-        <div className='container mt-5'>
+        <div className='container'>
+            <a href="/" className='logo'>LOGO</a>
             <div className='wrapper'>
-                <h1 className='text-primary mb-3'>Nature Describtions</h1>
-                <NatureDescribe posts={currentPosts} loading={loading} />
-                <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate}/>
+                <div>
+                    <h1 className='text-primary'>Nature Describtions</h1>
+                    <NatureDescribe posts={currentPosts} loading={loading} />
+                    <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate}/>
+                </div>
             </div>
-            
         </div>
+        
     )
 }
 

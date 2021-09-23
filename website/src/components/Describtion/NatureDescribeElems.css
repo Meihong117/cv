@@ -13,22 +13,53 @@
     rgba(1, 147, 86, 1) 0%,
     rgba(10, 201, 122, 1) 100%
   );
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
+.logo {
+  margin-left: 32px;
+  position: relative;
+  top: 32px;
+  margin-top: 32px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    margin-left: 16px;
+    top: 8px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
 .text-primary {
   margin-bottom: 20px;
   text-align: center;
 }
 
 /* components/Describe/natureDescribe.js */
+.list {
+  border: 1px solid #cbd1cb;
+  background-color: #010101;
+  width: fit-content;
+}
+.list-group {
+  margin: 10px;
+}
 .list-group-item {
   color: #fff;
   line-height: 30px;
+  list-style: none;
 }
-
+.list-group-item::before {
+  content: "*";
+  margin-right: 5px;
+}
 /* pagination.js */
 .page-nav {
   max-width: max-content;
@@ -47,4 +78,7 @@
 .page-link {
   text-decoration: none;
   color: #010101;
+}
+.page-link:hover {
+  color: azure;
 }
