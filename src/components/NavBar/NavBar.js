@@ -47,7 +47,7 @@ const NavBar = ({toggle}) => {
                             <NavLinks to='about' spy={true} smooth={true} offset={-80} duration={500} exact='true'>EDUCATION</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover' spy={true} smooth={true} offset={-80} duration={500} exact='true'>PERSONAL PROJECTS</NavLinks>
+                            <NavLinks to='project' spy={true} smooth={true} offset={-80} duration={500} exact='true'>PROJECTS n Skills</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='services' spy={true} smooth={true} offset={-80} duration={500} exact='true'>WORK HISTORY</NavLinks>
