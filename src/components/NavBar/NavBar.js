@@ -35,22 +35,22 @@ const NavBar = ({toggle}) => {
                     <NavMenu>
                         <NavItem>
                             {/* navbar height=80px */}
-                            <NavLinks to='about' spy={true} smooth={true} offset={-80} duration={500} exact='true'>About</NavLinks>
+                            <NavLinks to='about' spy={true} smooth={true} offset={-80} duration={500} exact='true'>SUMMARY</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Discover</NavLinks>
+                            <NavLinks to='discover' spy={true} smooth={true} offset={-80} duration={500} exact='true'>EDUCATION</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Services</NavLinks>
+                            <NavLinks to='services' spy={true} smooth={true} offset={-80} duration={500} exact='true'>WORK HISTORY</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='signup' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Sign Up</NavLinks>
+                            <NavLinks to='signup' spy={true} smooth={true} offset={-80} duration={500} exact='true'>REFEREES</NavLinks>
                         </NavItem>
                     </NavMenu>
 
-                    <NavBtn>
+                    {/* <NavBtn>
                         <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                    </NavBtn>
+                    </NavBtn> */}
 
                 </NavbarContainer>
             </Nav>
