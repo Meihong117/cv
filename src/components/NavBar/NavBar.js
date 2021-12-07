@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import {Nav, NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn, NavBtnLink} from './NavbarElements'
+import {Nav, NavbarContainer,NavContainer,NavLogo,NavDetails,NavDetail,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn, NavBtnLink} from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
@@ -28,17 +28,26 @@ const NavBar = ({toggle}) => {
         <IconContext.Provider value={{color: 'yellow'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>LOGO</NavLogo>
+                    <NavContainer>
+                        <NavLogo to='/' onClick={toggleHome}>Estelle Wu</NavLogo>
+                        <NavDetails>
+                            <NavDetail>+64 2108887682</NavDetail>
+                            <NavDetail>estelle.wu117@gmail.com</NavDetail>
+                        </NavDetails>
+                    </NavContainer>
+                    
+                   
+
                     <MobileIcon  onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
                             {/* navbar height=80px */}
-                            <NavLinks to='about' spy={true} smooth={true} offset={-80} duration={500} exact='true'>SUMMARY</NavLinks>
+                            <NavLinks to='about' spy={true} smooth={true} offset={-80} duration={500} exact='true'>EDUCATION</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover' spy={true} smooth={true} offset={-80} duration={500} exact='true'>EDUCATION</NavLinks>
+                            <NavLinks to='discover' spy={true} smooth={true} offset={-80} duration={500} exact='true'>PERSONAL PROJECTS</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='services' spy={true} smooth={true} offset={-80} duration={500} exact='true'>WORK HISTORY</NavLinks>

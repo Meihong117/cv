@@ -15,11 +15,11 @@ const Hero = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Enjoy The Nature</HeroH1>
-                <HeroP>Nature is made of everything we see around us – trees, flowers, plants, animals, sky, mountains, forests and more.</HeroP>
-                <HeroBtnWrapper>
+                <HeroH1>SUMMARY</HeroH1>
+                <HeroP>I graduated from the University of Canterbury in Computer Science, have excellent skills with programming languages like JavaScript(ES6), HTML5, CSS3 and as a hard-working Supervisor, Manager and Consultant, have 3.5+ years customer services and training work experience. I am a fast learner, pay great attention to details, patient and like to overcome difficult challenges.</HeroP>
+                {/* <HeroBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Get Started {hover? <ArrowForward />: <ArrowRight />}</Button>
-                </HeroBtnWrapper>
+                </HeroBtnWrapper> */}
             </HeroContent>
         </HeroContainer>
     )

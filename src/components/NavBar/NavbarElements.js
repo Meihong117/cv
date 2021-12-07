@@ -26,7 +26,7 @@ height: 80px;
 z-index: 1;
 width: 100%;
 padding: 0 24px;
-max-width: 1100px;
+max-width: 1300px;
 `;
 
 export const NavLogo=styled(LinkR)`
@@ -40,6 +40,23 @@ margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
 `
+
+export const NavContainer=styled.div`
+display: flex;
+justify-content: center;
+`
+export const NavDetails=styled.div`
+display: grid;
+align-items: center;
+margin-left: 25px;
+`
+
+
+export const NavDetail=styled.h5`
+color: #fff;
+cursor: pointer;
+`
+
 export const MobileIcon = styled.div`
 display: none;
 
