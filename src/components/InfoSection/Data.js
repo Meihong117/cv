@@ -42,19 +42,20 @@ export const homeObjectTwo={
 }
 
 export const homeObjectThree={
-    id: 'signup',
+    id: 'hireme',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine1: 'Join Us',
-    headline1: 'Would you like to join us?',
-    description1: 'Please click the sign up button below',
-    buttonLabel: 'Sign Up',
+    topLine1: 'Hire Me',
+    headline1: 'Would you like to hire me?',
+    description1: 'Please click the button below',
+    buttonLabel: 'Send Email',
     imgStart: true,
     img: img3,
     alt:'Car',
     dark: false,
     primary: false,
     darkText:true,
-    to:'signup'
+    to:'hireme'
 }
+

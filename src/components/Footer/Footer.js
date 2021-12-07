@@ -14,12 +14,11 @@ const Footer = () => {
                     {/* 1st */}
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinktitle>About Us</FooterLinktitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Test</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of Service</FooterLink>
+                            <FooterLinktitle>REFEREES</FooterLinktitle>
+                                <FooterLink to='/'>Two Fat Stags</FooterLink>
+                                <FooterLink to='/signin'>Karen Ansell (Owner)</FooterLink>
+                                <FooterLink to='/signin'>027-2291275</FooterLink>
+                                <FooterLink to='/signin'>twofatstags@gmail.com</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
@@ -34,20 +33,16 @@ const Footer = () => {
                     { /* 2nd */}
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinktitle>Contact Us</FooterLinktitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Test</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of Service</FooterLink>
+                            <FooterLinktitle>LANGUAGES</FooterLinktitle>
+                                <FooterLink to='/signin'>Mandarin</FooterLink>
+                                <FooterLink to='/signin'>Korean</FooterLink>
+                                <FooterLink to='/signin'>English</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
-                            <FooterLinktitle>Social Media</FooterLinktitle>
-                                <FooterLink to='/signin'>Instagram</FooterLink>
-                                <FooterLink to='/signin'>Facebook</FooterLink>
-                                <FooterLink to='/signin'>youTube</FooterLink>
-                                <FooterLink to='/signin'>Twitter</FooterLink>
+                            <FooterLinktitle>HOBBIES</FooterLinktitle>
+                                <FooterLink to='/signin'>Learning new skills</FooterLink>
+                                <FooterLink to='/signin'>Playing Pool</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
