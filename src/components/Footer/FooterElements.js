@@ -27,7 +27,7 @@ justify-content: center;
 
 export const FooterLinksWrapper=styled.div`
 display: flex;
-
+margin: 0 70px;
 
 @media screen and (max-width: 820px){
     flex-direction: column;
@@ -105,13 +105,14 @@ margin-bottom: 16px;
 
 export const SocialIcons=styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 width: 240px;
 `;
 
 export const SocialIncoLink=styled.a`
 color: #fff;
+margin: 0 20px;
 cont-size: 24px;
 `;
 

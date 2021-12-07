@@ -1,6 +1,6 @@
 import React from 'react'
 import {FooterContainer,FooterWrapper,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinktitle,FooterLink,SocialMedia, SocialMediaWrap,SocialLogo,WebsiteRights,SocialIcons,SocialIncoLink } from './FooterElements'
-import {FaFacebook,FaInstagram, FaYoutube, FaTwitter} from 'react-icons/fa'
+import {FaFacebook,FaInstagram, FaYoutube, FaTwitter, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { animateScroll as scroll } from 'react-scroll'
 
 const Footer = () => {
@@ -14,21 +14,21 @@ const Footer = () => {
                     {/* 1st */}
                     <FooterLinksWrapper>
                         <FooterLinkItems>
+                            {/* 1 */}
                             <FooterLinktitle>REFEREES</FooterLinktitle>
                                 <FooterLink to='/'>Two Fat Stags</FooterLink>
                                 <FooterLink to='/signin'>Karen Ansell (Owner)</FooterLink>
                                 <FooterLink to='/signin'>027-2291275</FooterLink>
                                 <FooterLink to='/signin'>twofatstags@gmail.com</FooterLink>
+                                <br />
+                                <FooterLink to='/'>Silver Fern Farms</FooterLink>
+                                <FooterLink to='/signin'>David Peterson</FooterLink>
+                                <FooterLink to='/signin'>027-8580804</FooterLink>
+                                <FooterLink to='/signin'>David.g.peterson@silverfernfarms.co.nz</FooterLink>
                         </FooterLinkItems>
 
-                        <FooterLinkItems>
-                            <FooterLinktitle>Videos</FooterLinktitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Test</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of Service</FooterLink>
-                        </FooterLinkItems>
+                       
+                      
                     </FooterLinksWrapper>
                     { /* 2nd */}
                     <FooterLinksWrapper>
@@ -50,25 +50,27 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            LOGO
+                            Estelle Wu
                         </SocialLogo>
-                        <WebsiteRights>LOGO @ {new Date().getFullYear()}All rights reserved.</WebsiteRights>
+                        <WebsiteRights>+64 2108887682</WebsiteRights>
+                        <WebsiteRights>estelle.wu117@gmail.com</WebsiteRights>
+
                         <SocialIcons>
-                            <SocialIncoLink href='/' target='_blank' aria-label='Facebook'>
-                                <FaFacebook />
+                            <SocialIncoLink href='/' target='_blank' aria-label='GitHub'>
+                                <FaGithub />
                             </SocialIncoLink>
 
-                            <SocialIncoLink href='/' target='_blank' aria-label='Instagram'>
-                                <FaInstagram />
+                            <SocialIncoLink href='/' target='_blank' aria-label='Linkedin'>
+                                <FaLinkedin />
                             </SocialIncoLink>
 
-                            <SocialIncoLink href='/' target='_blank' aria-label='Youtube'>
+                            {/* <SocialIncoLink href='/' target='_blank' aria-label='Youtube'>
                                 <FaYoutube />
                             </SocialIncoLink>
 
                             <SocialIncoLink href='/' target='_blank' aria-label='Twitter'>
                                 <FaTwitter />
-                            </SocialIncoLink>
+                            </SocialIncoLink>  */}
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
