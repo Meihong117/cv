@@ -20,7 +20,7 @@ export const homeObjectOne={
     dark: true,
     primary: true,
     darkText:false,
-    to:'describtion'
+    to:'education'
 }
 
 export const homeObjectTwo={
@@ -46,7 +46,7 @@ export const homeObjectThree={
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine1: 'Hire Me',
+    topLine1: 'Hire Me?',
     headline1: 'Would you like to hire me?',
     description1: 'Please click the button below',
     buttonLabel: 'Send Email',

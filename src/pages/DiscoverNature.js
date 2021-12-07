@@ -4,8 +4,6 @@ import Discover from '../components/Discover/Discover'
 const DiscoverNature = () => {
     return (
         <Discover />
-            
-    
     )
 }
 
