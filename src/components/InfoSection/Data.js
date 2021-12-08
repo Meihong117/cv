@@ -35,7 +35,6 @@ export const homeObjectProject={
     description5: 'ReactJs Portfolios',
     description6: 'Simple Dental Booking Page',
     description7: 'Design Coffee Ordering App',
-
     buttonLabel: 'See Details',
     imgStart: true,
     img: img2,
@@ -64,7 +63,7 @@ export const homeObjectSkill={
     buttonLabel: 'See Details',
     imgStart: false,
     img: skill,
-    alt:'Car',
+    alt:'skill',
     dark: true,
     primary: true,
     darkText:false,

@@ -5,7 +5,7 @@ const NatureDescribe = () => {
   
     return (
         <>
-            <EducationContainer>hhh</EducationContainer>
+            <EducationContainer>Education details</EducationContainer>
         </>
     )
 }
