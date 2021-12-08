@@ -61,7 +61,7 @@ export const homeObjectSkill={
     description13: 'Restful API / ExpressJs / Npm',
     description14: 'MySQL',
 
-    buttonLabel: 'Skill',
+    buttonLabel: 'See Details',
     imgStart: false,
     img: skill,
     alt:'Car',

@@ -5,7 +5,7 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup'
 import SuccessSignup from './pages/SuccessSignup';
 import Education from './pages/Education'
-import DiscoverNature from './pages/DiscoverNature';
+import WorkDetail from './pages/WorkDetail';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path='/signup' component={Signup} exact />
         <Route path='/success' component={SuccessSignup} exact />
         <Route path='/education' component={Education} exact />
-        <Route path='/discover' component={DiscoverNature} exact />
+        <Route path='/workDetail' component={WorkDetail} exact />
 
       </Switch>
     </Router>

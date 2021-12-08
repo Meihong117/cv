@@ -1,19 +1,20 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ServicesContainer=styled.div`
-height: 700px;
+height:700px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #fff;
 
-@media screen and (max-width: 768px){
-    height: 1100px;
+@media screen and (max-width: 960px){
+    height: 900px;
 }
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     height: 1300px;
-}
+} */
 `;
 export const ServicesWrapper=styled.div`
 max-width: 1000px;
@@ -42,7 +43,7 @@ flex-direction: column;
 justify-content:center;
 align-items: center;
 border-radius: 10px;
-height: 320px;
+height: 280px;
 
 padding: 30px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
@@ -71,9 +72,15 @@ margin-bottom: 64px;
 }
 `;
 
-export const ServicesH2=styled.h2`
+export const ServicesH2=styled(Link)`
 font-size: 1rem;
 margin-bottom: 10px;
+text-decoration: none;
+color: #000308;
+
+&:hover{
+    color: #02c2f7;
+}
 `;
 
 export const ServicesP=styled.p`

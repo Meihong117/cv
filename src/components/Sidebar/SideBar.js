@@ -11,14 +11,14 @@ const SideBar = ({isOpen, toggle}) => {
 
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='education' onClick={toggle}>EDUCATION</SidebarLink>
-                    <SidebarLink to='projects' onClick={toggle}>PROJECTS</SidebarLink>
-                    <SidebarLink to='skill' onClick={toggle}>SKILLS</SidebarLink>
-                    <SidebarLink to='history' onClick={toggle}>WORK HISTORY</SidebarLink>
+                    <SidebarLink to='/' onClick={toggle}>EDUCATION</SidebarLink>
+                    <SidebarLink to='/' onClick={toggle}>PROJECTS</SidebarLink>
+                    <SidebarLink to='/' onClick={toggle}>SKILLS</SidebarLink>
+                    <SidebarLink to='/' onClick={toggle}>WORK HISTORY</SidebarLink>
                     <SocialIncoLink href='https://github.com/Meihong117' target='_blank' aria-label='GitHub'>
                         <FaGithub />
                     </SocialIncoLink>
-                    <SidebarLink to='hireme' onClick={toggle}>HIRE ME?</SidebarLink>
+                    <SidebarLink to='/' onClick={toggle}>HIRE ME?</SidebarLink>
                 </SidebarMenu>
 
                 
