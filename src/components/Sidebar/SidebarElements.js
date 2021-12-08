@@ -31,7 +31,6 @@ outline: none;
 
 export const CloseIcon=styled(FaTimes)`
 color: #fff;
-
 `
 
 export const SidebarWrapper=styled.div`
@@ -57,7 +56,7 @@ justify-content: center;
 font-size: 1.5rem;
 text-decoration: none;
 list-style: none;
-trasition: 0.2s ease-in-out;
+transition: 0.2s ease-in-out;
 color: #fff;
 cursor: pointer;
 
@@ -92,7 +91,18 @@ text-decoration: none;
 }
 `;
 
+export const SocialIncoLink=styled.a`
+color: #fff;
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
 
+&:hover{
+    color: #01bf71;
+    transition:0.2s ease-in-out;
+}
+`
 
 
 

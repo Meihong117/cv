@@ -1,5 +1,5 @@
 import React from 'react'
-import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,  ServicesH2, ServicesP,ServicesIcon} from './ServicesElements'
+import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,  ServicesH2, ServicesP,ServicesIcon} from './WorkHistoryElements'
 
 import Icon1 from '../../images/img-4.svg'
 import Icon2 from '../../images/img-5.svg'

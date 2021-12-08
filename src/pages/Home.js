@@ -5,7 +5,7 @@ import { homeObjectEducation,homeObjectProject,homeObjectThree, homeObjectSkill 
 import InfoSection from '../components/InfoSection/InfoSection'
 import NavBar from '../components/NavBar/NavBar'
 import Projects  from '../components/Projects/Projects'
-import Services from '../components/Services/Services'
+import WorkHistory from '../components/WorkHistory/WorkHistory'
 import SideBar from '../components/Sidebar/SideBar'
 
 const Home = () => {
@@ -24,7 +24,7 @@ const toggle=()=>{
             <InfoSection {...homeObjectProject}/>
             {/* <Projects /> */}
             <InfoSection {...homeObjectSkill}/>
-            <Services />
+            <WorkHistory />
             <InfoSection {...homeObjectThree}/>
             <Footer />
 

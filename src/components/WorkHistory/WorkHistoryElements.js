@@ -6,7 +6,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #010606;
+background: #fff;
 
 @media screen and (max-width: 768px){
     height: 1100px;
@@ -39,7 +39,7 @@ export const ServicesCard=styled.div`
 background: #fff;
 display: flex;
 flex-direction: column;
-justify-content:flex-start;
+justify-content:center;
 align-items: center;
 border-radius: 10px;
 height: 320px;
@@ -63,7 +63,6 @@ margin-bottom: 10px;
 
 export const ServicesH1=styled.h1`
 font-size: 2.5rem;
-color: #fff;
 margin-bottom: 64px;
 
 

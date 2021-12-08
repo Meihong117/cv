@@ -56,11 +56,11 @@ const Footer = () => {
                         <WebsiteRights>estelle.wu117@gmail.com</WebsiteRights>
 
                         <SocialIcons>
-                            <SocialIncoLink href='/' target='_blank' aria-label='GitHub'>
+                            <SocialIncoLink href='https://github.com/Meihong117' target='_blank' aria-label='GitHub'>
                                 <FaGithub />
                             </SocialIncoLink>
 
-                            <SocialIncoLink href='/' target='_blank' aria-label='Linkedin'>
+                            <SocialIncoLink href='https://www.linkedin.com/in/estelle-wu-08495a178/' target='_blank' aria-label='Linkedin'>
                                 <FaLinkedin />
                             </SocialIncoLink>
 

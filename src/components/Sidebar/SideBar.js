@@ -1,5 +1,6 @@
 import React from 'react'
-import {SideBarContainer, Icon, CloseIcon,SidebarWrapper,SidebarMenu,SidebarLink, SidebtnWrap,SidebarRoute } from './SidebarElements'
+import {SideBarContainer, Icon, CloseIcon,SidebarWrapper,SidebarMenu,SidebarLink, SocialIncoLink } from './SidebarElements'
+import { FaGithub} from 'react-icons/fa'
 
 const SideBar = ({isOpen, toggle}) => {
     return (
@@ -14,13 +15,13 @@ const SideBar = ({isOpen, toggle}) => {
                     <SidebarLink to='projects' onClick={toggle}>PROJECTS</SidebarLink>
                     <SidebarLink to='skill' onClick={toggle}>SKILLS</SidebarLink>
                     <SidebarLink to='history' onClick={toggle}>WORK HISTORY</SidebarLink>
+                    <SocialIncoLink href='https://github.com/Meihong117' target='_blank' aria-label='GitHub'>
+                        <FaGithub />
+                    </SocialIncoLink>
                     <SidebarLink to='hireme' onClick={toggle}>HIRE ME?</SidebarLink>
-                    
                 </SidebarMenu>
 
-                <SidebtnWrap>
-                    <SidebarRoute to='/signin' >Sign In</SidebarRoute>
-                </SidebtnWrap>
+                
             </SidebarWrapper>
         </SideBarContainer>
     )
