@@ -72,9 +72,9 @@ export const homeObjectSkill={
 }
 export const homeObjectThree={
     id: 'hireme',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine1: 'Hire Me?',
     headline1: 'Would you like to hire me?',
     description1: 'Please click the button below',
@@ -82,9 +82,9 @@ export const homeObjectThree={
     imgStart: true,
     img: img3,
     alt:'Car',
-    dark: false,
-    primary: false,
-    darkText:true,
+    dark: true,
+    primary: true,
+    darkText:false,
     to:'hireme'
 }
 
