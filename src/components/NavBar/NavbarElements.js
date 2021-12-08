@@ -100,7 +100,7 @@ cursor: pointer;
 color: #fff;
 
 &.active{
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #02c2f7;
 }
 `;
 
@@ -121,7 +121,7 @@ align-items: center;
 
 export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
-background: #01bf71;
+background: #02c2f7;
 white-space: nowrap;
 padding: 10px 22px;
 color: #010606;

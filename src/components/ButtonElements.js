@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Button=styled(Link)`
 border-radius: 50px;
 text-decoration: none;
-background: ${({primary})=>(primary? '#01BF71': '#010606')};
+background: ${({primary})=>(primary? '#02c2f7': '#010606')};
 white-space: nowrap;
 padding: ${({big})=>(big? '14px 48px': '12px 30px')};
 color: ${({dark})=>(dark? '#010606': '#fff')};
@@ -19,7 +19,7 @@ transition: all 0.2s ease-in-out;
 
 &:hover{
 transition: all 0.2s ease-in-out;
-background: ${({primary})=>(primary? '#fff': '#01BF71')};
+background: ${({primary})=>(primary? '#fff': '#02c2f7')};
 
 }
 `;

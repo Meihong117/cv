@@ -1,7 +1,7 @@
 import img1 from '../../images/img-1.svg'
 import img2 from '../../images/img-2.svg'
 import img3 from '../../images/img-3.svg'
-
+import skill from '../../images/skill.svg'
 
 export const homeObjectEducation={
     id: 'education',
@@ -40,8 +40,8 @@ export const homeObjectProject={
     imgStart: true,
     img: img2,
     alt:'Car',
-    dark: false,
-    primary: false,
+    dark: true,
+    primary: true,
     darkText:true,
     to:'projects'
 }
@@ -63,7 +63,7 @@ export const homeObjectSkill={
 
     buttonLabel: 'Skill',
     imgStart: false,
-    img: img2,
+    img: skill,
     alt:'Car',
     dark: true,
     primary: true,
