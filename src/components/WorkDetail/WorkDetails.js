@@ -1,11 +1,11 @@
 import React from 'react'
-import {WorkDetal} from './WorkDetailElems'
+import {WorkDetail} from './WorkDetailElems'
 
 const NatureDescribe = () => {
   
     return (
         <>
-            <WorkDetal>Work</WorkDetal>
+            <WorkDetail>Work details</WorkDetail>
         </>
     )
 }

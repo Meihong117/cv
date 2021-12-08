@@ -16,25 +16,25 @@ const services = ({workDetail}) => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
-                    <ServicesH2 to='workDetail'>FRONT OF HOUSE</ServicesH2>
+                    <ServicesH2 to='work'>FRONT OF HOUSE</ServicesH2>
                     <ServicesP>10/2020 - Current</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2 to='workDetail'>FRONT OF HOUSE SUPERVISOR</ServicesH2>
+                    <ServicesH2 to='work'>FRONT OF HOUSE SUPERVISOR</ServicesH2>
                     <ServicesP>12/2018 - 12/2019</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2 to='workDetail'>FRONT OF HOUSE MANAGER</ServicesH2>
+                    <ServicesH2 to='work'>FRONT OF HOUSE MANAGER</ServicesH2>
                     <ServicesP>09/2017 - 01/2018</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
-                    <ServicesH2 to='workDetail'>COURSE CONSULTANT</ServicesH2>
+                    <ServicesH2 to='work'>COURSE CONSULTANT</ServicesH2>
                     <ServicesP>07/2016 - 08/2017</ServicesP>
                 </ServicesCard>
 

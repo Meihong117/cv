@@ -1,7 +1,7 @@
 import React from 'react'
 import {EducationContainer} from './EducationElems.js'
 
-const NatureDescribe = () => {
+const EducationDetail = () => {
   
     return (
         <>
@@ -10,4 +10,4 @@ const NatureDescribe = () => {
     )
 }
 
-export default NatureDescribe
+export default EducationDetail
