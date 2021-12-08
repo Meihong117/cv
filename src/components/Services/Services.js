@@ -10,7 +10,7 @@ import Icon4 from '../../images/img-7.svg'
 
 const services = () => {
     return (
-        <ServicesContainer id='services'>
+        <ServicesContainer id='history'>
             <ServicesH1>WORK HISTORY</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>

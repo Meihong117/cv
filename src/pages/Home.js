@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import Footer from '../components/Footer/Footer'
 import Hero from '../components/HeroSection/Hero'
-import { homeObjectOne,homeObjectTwo,homeObjectThree } from '../components/InfoSection/Data'
+import { homeObjectEducation,homeObjectProject,homeObjectThree, homeObjectSkill } from '../components/InfoSection/Data'
 import InfoSection from '../components/InfoSection/InfoSection'
 import NavBar from '../components/NavBar/NavBar'
 import Projects  from '../components/Projects/Projects'
@@ -20,8 +20,10 @@ const toggle=()=>{
             <SideBar isOpen={isOpen} toggle={toggle}/>
             <NavBar toggle={toggle}/>
             <Hero />
-            <InfoSection {...homeObjectOne}/>
-            <Projects />
+            <InfoSection {...homeObjectEducation}/>
+            <InfoSection {...homeObjectProject}/>
+            {/* <Projects /> */}
+            <InfoSection {...homeObjectSkill}/>
             <Services />
             <InfoSection {...homeObjectThree}/>
             <Footer />

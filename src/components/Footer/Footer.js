@@ -64,13 +64,6 @@ const Footer = () => {
                                 <FaLinkedin />
                             </SocialIncoLink>
 
-                            {/* <SocialIncoLink href='/' target='_blank' aria-label='Youtube'>
-                                <FaYoutube />
-                            </SocialIncoLink>
-
-                            <SocialIncoLink href='/' target='_blank' aria-label='Twitter'>
-                                <FaTwitter />
-                            </SocialIncoLink>  */}
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>

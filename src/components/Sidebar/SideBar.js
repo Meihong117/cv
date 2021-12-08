@@ -10,10 +10,12 @@ const SideBar = ({isOpen, toggle}) => {
 
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='describtion' onClick={toggle}>EDUCATION</SidebarLink>
-                    <SidebarLink to='discover' onClick={toggle}>WORK HISTORY</SidebarLink>
-                    <SidebarLink to='services' onClick={toggle}>PERSONAL PROJECTS</SidebarLink>
-                    <SidebarLink to='signup' onClick={toggle}>REFEREES</SidebarLink>
+                    <SidebarLink to='education' onClick={toggle}>EDUCATION</SidebarLink>
+                    <SidebarLink to='projects' onClick={toggle}>PROJECTS</SidebarLink>
+                    <SidebarLink to='skill' onClick={toggle}>SKILLS</SidebarLink>
+                    <SidebarLink to='history' onClick={toggle}>WORK HISTORY</SidebarLink>
+                    <SidebarLink to='hireme' onClick={toggle}>HIRE ME?</SidebarLink>
+                    
                 </SidebarMenu>
 
                 <SidebtnWrap>

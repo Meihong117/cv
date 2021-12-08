@@ -1,8 +1,9 @@
 import React,{useState,useEffect} from 'react'
-import {Nav, NavbarContainer,NavContainer,NavLogo,NavDetails,NavDetail,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn, NavBtnLink} from './NavbarElements'
+import {Nav, NavbarContainer,NavContainer,NavLogo,NavDetails,NavDetail,MobileIcon,NavMenu,NavItem,NavLinks,SocialIncoLink,NavBtn, NavBtnLink} from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
+import { FaGithub} from 'react-icons/fa'
 
 const NavBar = ({toggle}) => {
     // when scroll the window, the navbar-color will change to black
@@ -37,21 +38,27 @@ const NavBar = ({toggle}) => {
                     </NavContainer>
                     
                    
-
                     <MobileIcon  onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
                             {/* navbar height=80px */}
-                            <NavLinks to='about' spy={true} smooth={true} offset={-80} duration={500} exact='true'>EDUCATION</NavLinks>
+                            <NavLinks to='education' spy={true} smooth={true} offset={-80} duration={500} exact='true'>EDUCATION</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='project' spy={true} smooth={true} offset={-80} duration={500} exact='true'>PROJECTS n Skills</NavLinks>
+                            <NavLinks to='projects' spy={true} smooth={true} offset={-80} duration={500} exact='true'>PROJECTS</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services' spy={true} smooth={true} offset={-80} duration={500} exact='true'>WORK HISTORY</NavLinks>
+                            <NavLinks to='skill' spy={true} smooth={true} offset={-80} duration={500} exact='true'>SKILLS</NavLinks>
                         </NavItem>
+                        <NavItem>
+                            <NavLinks to='history' spy={true} smooth={true} offset={-80} duration={500} exact='true'>WORK HISTORY</NavLinks>
+                        </NavItem>
+                        <SocialIncoLink href='https://github.com/Meihong117' target='_blank' aria-label='GitHub'>
+                                <FaGithub />
+                        </SocialIncoLink>
+
                         <NavItem>
                             <NavLinks to='hireme' spy={true} smooth={true} offset={-80} duration={500} exact='true'>HIRE ME?</NavLinks>
                         </NavItem>

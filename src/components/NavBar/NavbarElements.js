@@ -60,7 +60,7 @@ cursor: pointer;
 export const MobileIcon = styled.div`
 display: none;
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
     display: block;
     position: absolute;
     top: 0;
@@ -79,9 +79,9 @@ display: flex;
 align-items: center;
 list-style: none;
 text-align: center;
-margin-right: -22px;
+margin-right: -18px;
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
     display: none;
 }
 `;
@@ -104,11 +104,17 @@ color: #fff;
 }
 `;
 
+export const SocialIncoLink=styled.a`
+color: #fff;
+font-size: 24px;
+`
+
+
 export const NavBtn = styled.nav`
 display: flex;
 align-items: center;
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
     display: none;
 }
 `

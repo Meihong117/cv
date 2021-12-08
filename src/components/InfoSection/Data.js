@@ -3,8 +3,8 @@ import img2 from '../../images/img-2.svg'
 import img3 from '../../images/img-3.svg'
 
 
-export const homeObjectOne={
-    id: 'about',
+export const homeObjectEducation={
+    id: 'education',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -23,24 +23,53 @@ export const homeObjectOne={
     to:'education'
 }
 
-export const homeObjectTwo={
-    id: 'discover',
+export const homeObjectProject={
+    id: 'projects',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     topLine1: 'PERSONAL PROJECTS',
-    headline1: 'Short stories about nature, environment, pollution',
-    description1: 'This section has stories where people feel an affinity to the outdoors, or nature features prominently in the action for good or bad.',
-    buttonLabel: 'Discover',
+    // headline1: 'Short stories about nature, environment, pollution',
+    description3: 'Traveling Website',
+    description4: ' CSS/HTML/DOM Documentations',
+    description5: 'ReactJs Portfolios',
+    description6: 'Simple Dental Booking Page',
+    description7: 'Design Coffee Ordering App',
+
+    buttonLabel: 'See Details',
     imgStart: true,
     img: img2,
     alt:'Car',
     dark: false,
     primary: false,
     darkText:true,
-    to:'discover'
+    to:'projects'
 }
 
+export const homeObjectSkill={
+    id: 'skill',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine1: 'SKILLS',
+    // headline1: 'Short stories about nature, environment, pollution',
+    description8: 'CSS3 / HTML5 / JavaScript(ES6)',
+    description9: 'VueJs / ReactJS',
+    description10: 'C# .NET framework',
+    description11: 'Github / Azure',
+    description12: 'UX/UI',
+    description13: 'Restful API / ExpressJs / Npm',
+    description14: 'MySQL',
+
+    buttonLabel: 'Skill',
+    imgStart: false,
+    img: img2,
+    alt:'Car',
+    dark: true,
+    primary: true,
+    darkText:false,
+    to:'skill'
+}
 export const homeObjectThree={
     id: 'hireme',
     lightBg: true,

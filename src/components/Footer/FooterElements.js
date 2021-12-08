@@ -72,6 +72,7 @@ font-size: 14px;
 export const SocialMedia=styled.section`
 max-width: 1000px;
 width: 100%;
+
 `;
 
 export const SocialMediaWrap=styled.div`
@@ -113,7 +114,7 @@ width: 240px;
 export const SocialIncoLink=styled.a`
 color: #fff;
 margin: 0 20px;
-cont-size: 24px;
+font-size: 24px;
 `;
 
 
