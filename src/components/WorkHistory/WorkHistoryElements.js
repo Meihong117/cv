@@ -7,7 +7,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #fff;
+background: #010606;
 
 @media screen and (max-width: 960px){
     height: 900px;
@@ -65,7 +65,7 @@ margin-bottom: 10px;
 export const ServicesH1=styled.h1`
 font-size: 2.5rem;
 margin-bottom: 64px;
-
+color:#fff;
 
 @media screen and (max-width: 480px){
     font-size: 2rem;

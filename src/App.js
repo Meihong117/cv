@@ -21,7 +21,7 @@ function App() {
         <Route path='/projects' component={ProjectDetails} exact />
         <Route path='/skill' component={SkillDetails} exact />
 
-        <Route path='/workDetail' component={WorkDetail} exact />
+        <Route path='/work' component={WorkDetail} exact />
 
       </Switch>
     </Router>
