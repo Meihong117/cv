@@ -33,6 +33,12 @@ padding: 0 50px;
     grid-template-columns: 1fr 1fr;
     padding: 0 20px;
 }
+@media screen and (max-width: 480px){
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    height: 700px;
+    overflow: scroll;
+}
 `;
 
 
