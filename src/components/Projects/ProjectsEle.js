@@ -3,24 +3,14 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const ProjectContainer=styled.div`
+
 display: flex;
 justify-content: center;
 height: max-content;
 padding-top: 5%;
 
 `;
-export const SocialIncoLink=styled.a`
-color: #fff;
-font-size: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
-
-&:hover{
-    color: #010606;
-    transition:0.2s ease-in-out;
-}
-`;
+// video
 export const HeroBg=styled.div`
 position: absolute;
 top: 0;
@@ -44,10 +34,23 @@ width: max-content;
 margin: 0 30px;
 `;
 
+export const SocialIncoLink=styled.a`
+color: #fff;
+font-size: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+&:hover{
+    color: #010606;
+    transition:0.2s ease-in-out;
+}
+`;
+
 export const ProjectImg=styled.img`
 width: 350px;
 height: 330px;
-
+border-radius: 5px;
 
 @media screen and (max-width:960px){
     width: 330px;
@@ -59,6 +62,7 @@ height: 330px;
 `;
 
 export const ProjectDetail=styled.div`
+position: relative;
 background-color: #02c2f7;
 z-index: 5;
 width: max-content;
