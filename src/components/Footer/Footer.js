@@ -26,8 +26,6 @@ const Footer = () => {
                                 <FooterLink to='/signin'>027-8580804</FooterLink>
                                 <FooterLink to='/signin'>David.g.peterson@silverfernfarms.co.nz</FooterLink>
                         </FooterLinkItems>
-
-                       
                       
                     </FooterLinksWrapper>
                     { /* 2nd */}
