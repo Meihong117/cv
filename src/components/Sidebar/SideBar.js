@@ -20,8 +20,6 @@ const SideBar = ({isOpen, toggle}) => {
                     </SocialIncoLink>
                     <SidebarLink to='/' onClick={toggle}>HIRE ME?</SidebarLink>
                 </SidebarMenu>
-
-                
             </SidebarWrapper>
         </SideBarContainer>
     )
