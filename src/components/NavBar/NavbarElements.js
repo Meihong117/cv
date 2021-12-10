@@ -42,6 +42,7 @@ text-decoration: none;
 
 @media screen and (max-width:480px){
     font-size: 1rem;
+    margin-left: 18px;
 }
 `
 

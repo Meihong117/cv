@@ -14,9 +14,9 @@ const EducationDetail = () => {
     return (
             <IconContext.Provider value={{}}>
                 <AccordionSection>
-                <BackgroundImg>
+                {/* <BackgroundImg>
                     <VideoBg  src={img} />
-                </BackgroundImg>
+                </BackgroundImg> */}
                     <Contanier>
                         {Data.map((item,index)=>{
                             return (
