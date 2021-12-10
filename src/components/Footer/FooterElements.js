@@ -65,16 +65,12 @@ font-size: 14px;
 margin-bottom: 16px;
 `;
 
-export const FooterLink=styled(Link)`
+export const FooterLink=styled.p`
 color: #fff;
 text-decoration: none;
 margin-bottom: 0.5rem;
 font-size: 14px;
 
-&:hover{
-    color: #02c2f7;
-    transition: 0.3s ease-in-out;
-}
 `;
 
 export const SocialMedia=styled.section`

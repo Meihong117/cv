@@ -16,15 +16,15 @@ const Footer = () => {
                         <FooterLinkItems>
                             {/* 1 */}
                             <FooterLinktitle>REFEREES</FooterLinktitle>
-                                <FooterLink to='/'>Two Fat Stags</FooterLink>
-                                <FooterLink to='/signin'>Karen Ansell (Owner)</FooterLink>
-                                <FooterLink to='/signin'>027-2291275</FooterLink>
-                                <FooterLink to='/signin'>twofatstags@gmail.com</FooterLink>
+                                <FooterLink >Two Fat Stags</FooterLink>
+                                <FooterLink >Karen Ansell (Owner)</FooterLink>
+                                <FooterLink >027-2291275</FooterLink>
+                                <FooterLink >twofatstags@gmail.com</FooterLink>
                                 <br />
-                                <FooterLink to='/'>Silver Fern Farms</FooterLink>
-                                <FooterLink to='/signin'>David Peterson</FooterLink>
-                                <FooterLink to='/signin'>027-8580804</FooterLink>
-                                <FooterLink to='/signin'>David.g.peterson@silverfernfarms.co.nz</FooterLink>
+                                <FooterLink >Silver Fern Farms</FooterLink>
+                                <FooterLink >David Peterson</FooterLink>
+                                <FooterLink >027-8580804</FooterLink>
+                                <FooterLink >David.g.peterson@silverfernfarms.co.nz</FooterLink>
                         </FooterLinkItems>
                       
                     </FooterLinksWrapper>
@@ -32,15 +32,15 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinktitle>LANGUAGES</FooterLinktitle>
-                                <FooterLink to='/signin'>Mandarin</FooterLink>
-                                <FooterLink to='/signin'>Korean</FooterLink>
-                                <FooterLink to='/signin'>English</FooterLink>
+                                <FooterLink >Mandarin</FooterLink>
+                                <FooterLink >Korean</FooterLink>
+                                <FooterLink >English</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinktitle>HOBBIES</FooterLinktitle>
-                                <FooterLink to='/signin'>Learning new skills</FooterLink>
-                                <FooterLink to='/signin'>Playing Pool</FooterLink>
+                                <FooterLink >Learning new skills</FooterLink>
+                                <FooterLink t>Playing Pool</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

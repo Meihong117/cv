@@ -14,9 +14,9 @@ function App() {
     <Router>
       <Switch>
         <Route path='/' component={Home} exact />
-        <Route path='/signin' component={Signin} exact />
-        <Route path='/signup' component={Signup} exact />
-        <Route path='/success' component={SuccessSignup} exact />
+        {/* <Route path='/signin' component={Signin} exact /> */}
+        {/* <Route path='/signup' component={Signup} exact /> */}
+        {/* <Route path='/success' component={SuccessSignup} exact /> */}
         <Route path='/education' component={Education} exact />
         <Route path='/projects' component={ProjectDetails} exact />
         <Route path='/skill' component={SkillDetails} exact />
