@@ -39,6 +39,10 @@ align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
+
+@media screen and (max-width:480px){
+    font-size: 1rem;
+}
 `
 
 export const NavContainer=styled.div`
