@@ -49,6 +49,10 @@ export const NavDetails=styled.div`
 display: grid;
 align-items: center;
 margin-left: 25px;
+
+@media screen and (max-width:480px){
+    margin-left: 10px;
+}
 `
 
 
