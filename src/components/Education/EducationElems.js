@@ -38,6 +38,10 @@ box-shadow:1px 10px 35px 1px rgba(153,153,153,0.3);
 background-color: #fff;
 height: max-content;
 width: 70%;
+
+@media screen and (max-width:480){
+    top: 15%;
+}
 `;
 export const Wrap=styled.div`
 background: #02c2f7;
@@ -55,7 +59,7 @@ h1{
 
 @media screen and (max-width:480){
     h1{
-    padding: 0.5rem;
+    padding: 0.3rem;
     font-size: 15px;
 }
 }

@@ -68,6 +68,10 @@ cursor: pointer;
     color: #02c2f7;
     transition:0.2s ease-in-out;
 }
+
+@media screen and (max-width: 480px){
+    font-size: 1rem;
+}
 `;
 
 export const SidebtnWrap=styled.div`

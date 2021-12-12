@@ -26,11 +26,11 @@ display: flex;
 justify-content:center;
 align-items: center;
 
-&:hover{
+/* &:hover{
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;   
     cursor: pointer;
-}
+} */
 @media screen and (max-width:960px){
     display: grid;
     align-items: center;
@@ -77,7 +77,7 @@ border-radius: 5px;
 }
 `;
 export const ProjectWrapper=styled.div`
-width: max-content;
+width: 350px;
 
 @media screen and (max-width:960px){
     width: 280px;
@@ -98,20 +98,20 @@ text-align: center;
 `;
 //icon
 export const SocialIncoLink=styled.a`
-color: #fff;
+color: #010606;
 font-size: 30px;
 display: flex;
 align-items: center;
 justify-content: center;
 
 &:hover{
-    color: #010606;
+    color: #fff;
     transition:0.2s ease-in-out;
 }
 `;
 export const ProjectOl=styled.ol`
 margin: 10px;
-padding: 0 12px;
+padding: 0 30px;
 
 `;
 
