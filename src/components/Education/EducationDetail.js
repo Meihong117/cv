@@ -14,13 +14,12 @@ const EducationDetail = () => {
     return (
             <IconContext.Provider value={{}}>
                 <AccordionSection>
-                {/* <BackgroundImg>
-                    <VideoBg  src={img} />
-                </BackgroundImg> */}
+                <VideoBg  src={img} />
                     <Contanier>
                         {Data.map((item,index)=>{
                             return (
                                 <>
+                                
                                 <Wrap onClick={()=>toggle(index)} key={index}>
                                     <h1>{item.degree}</h1>
                                     <span>{clicked===index? <FiChevronsDown />:<FiChevronsUp />}</span>
