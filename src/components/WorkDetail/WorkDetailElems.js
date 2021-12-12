@@ -1,69 +1,139 @@
-import styled from "styled-components";
+import styled, { css } from 'styled-components'
+import {IoArrowForward, IoArrowBack} from 'react-icons/io5'
+import {Link} from 'react-router-dom'
 
-
-//overall
-export const WorkDetailSection=styled.div`
+export const HeroSection=styled.section`
+height: 100vh;
+max-height: 1100px;
 position: relative;
-height: 700px;
+`
+export const HeroWrapper=styled.div`
+width:100%;
+height: 100%;
 display: flex;
 justify-content: center;
-align-items: center;
-
-/* 
-@media screen and (max-width:960px){
-    height: 600px;
-}
-@media screen and (max-width:480px){
-    height: 500px;
-} */
+align-items:center;
+overflow: hidden;
+position: relative;
 `
-
-export const SlideContainer=styled.div`
-
-/* @media screen and (max-width:960px){
-    height: 600px;
-}
-@media screen and (max-width:480px){
-    height:200px;
-} */
-`;
-
-//img
-export const SlideImg=styled.img`
-width: 700px;
-height: 300px;
-border-radius: 5px;
+export const HeroSlide=styled.div`
 z-index:1;
-`
-export const SlideWrapper=styled.div`
-
+width: 100%;
+height: 100%;
 `;
 
-// text content
-export const SlideContent=styled.div`
-text-align: center;
-width: 700px;
-`;
-export const SlideTitle=styled.h2`
-font-size: 30px;
-color: #02c2f7;
-`;
-export const SlideDate=styled.h3`
-font-size: 25px;
-`;
-export const SlideLocation=styled.h4`
-font-size: 20px;
-`;
-export const SlideDescription=styled.li`
-font-size: 15px;
-list-style-type:upper-roman;
+export const HeroSlider=styled.div`
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+&::before{
+    content: '';
+    position: absolute;
+    z-index:2;
+    width: 100vh;
+    bottom: 0vh;
+    left:0;
+    overflow: hidden;
+    opacity: 0.4;
+    backgorund: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 50%,rgba(0,0,0,0.6) 100%,)
+
+}
 `;
 
+export const HeroImage=styled.img`
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+`;
 
-//icon
-export const IconRight=styled.div`
-font-size: 30px;
-`
-export const IconLeft=styled.div`
-font-size: 30px;
+export const HeroContent=styled.div`
+position: relative;
+z-index:10;
+display:flex;
+flex-direction: column;
+max-width:1600px;
+width: calc(100% - 100px);
+color:#fff;
+
+h1{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    text-align:left;
+    margin-bottom: 0.8rem;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 18px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1.2rem;
+}
+p::before{
+    content: "# ";
+}
+`;
+
+export const arrowButtons=css`
+width:50px;
+height: 50px;
+color:#fff;
+cursor: pointer;
+background: #000d1a;
+border-radius: 50px;
+padding: 10px;
+margin-right: 1rem;
+user-selet: none;
+transition: 0.3s; 
+
+&:hover{
+    background: #02c2f7;
+    transform: scale(1.05);
+}
+`;
+
+export const SliderButtons=styled.div`
+position: absolute;
+bottom: 50px;
+right: 50px;
+display: flex;
+z-index: 10;
+`;
+
+export const PrevArrow=styled(IoArrowBack)`
+${arrowButtons}
+`;
+
+export const NextArrow=styled(IoArrowForward)`${arrowButtons}`;
+
+export const Button=styled(Link)`
+/* background: ${({primary})=>(primary?'#000d1a':'CD853F')}; */
+white-space: nowrap;
+outline:none;
+border:none;
+max-width:200px;
+min-width:100px;
+cursor: pointer;
+text-decoration: none;
+transition: 0.3s;
+justify-content: center;
+align-items: center;
+padding:${({big})=>(big? '16px 40px':'14px 24px')};
+color: ${({primary})=>(primary?'#fff':'#000d1a')};
+font-size: ${({big})=>(big?'20px':'14px')};
+
+&:hover{
+    transform:translateY(-2px);
+};
 `

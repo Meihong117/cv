@@ -1,53 +1,74 @@
-import React,{useState} from 'react'
-import {WorkDetailSection,IconLeft,SlideImg,SlideContainer,SlideWrapper,SlideContent,SlideTitle,SlideDate,SlideLocation,SlideDescription,IconRight} from './WorkDetailElems'
+import React, {useState, useRef, useEffect} from 'react'
+// import styled, { css } from 'styled-components/macro'
 import {SlideData} from './Data'
-import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
+import {HeroSection, HeroWrapper, HeroSlide,HeroContent,HeroSlider,HeroImage, Button,SliderButtons,PrevArrow,NextArrow,Arrow} from './WorkDetailElems'
 
-const NatureDescribe = ({slides}) => {
+
+
+// ======================================================================================
+const Hero = ({slides}) => {
     const [current, setCurrent]=useState(0)
     const length=slides.length
+    const timeout=useRef(null)
+
+    //set auto slider
+    useEffect(() => {
+        const nextSlide=()=>{
+            setCurrent(current=>(current===length-1? 0: current+1))
+        }
+        timeout.current=setTimeout(nextSlide,9000)
+        return function(){
+            if (timeout.current){
+                clearTimeout(timeout.current)
+            }
+        }
+    }, [current, length]);
 
     const nextSlide=()=>{
+        if (timeout.current){
+            clearTimeout(timeout.current)
+        }
         setCurrent(current===length-1? 0:current+1)
     }
     const prevSlide=()=>{
+        if (timeout.current){
+            clearTimeout(timeout.current)
+        }
         setCurrent(current===0? length-1:current-1)
-    } 
+    }
 
-    if(!Array.isArray(slides) || slides.length<=0) return null
-
+    if (!Array.isArray(slides)||slides.length<=0){
+        return null
+    }
+ 
     return (
-        <>
-            <WorkDetailSection>
-                <IconLeft>
-                    <FaArrowAltCircleLeft onClick={prevSlide}/>
-                </IconLeft>
+        <HeroSection>
+            <HeroWrapper>
                 {SlideData.map((slide,index)=>{
-                    return  (
-                        <SlideContainer key={index}>
-                            {index===current && 
-                            <SlideWrapper>
-                                <SlideImg src={slide.img} />
-                                <SlideContent>
-                                    <SlideTitle>{slide.title}</SlideTitle>
-                                    <SlideDate>{slide.date}</SlideDate>
-                                    <SlideLocation>{slide.location}</SlideLocation>
-                                    <SlideDescription>{slide.description1}</SlideDescription>
-                                    <SlideDescription>{slide.description2}</SlideDescription>
-                                    <SlideDescription>{slide.description3}</SlideDescription>
-                                </SlideContent>
-                            </SlideWrapper>
-                            }
-                        </SlideContainer>
+                    return(
+                        <HeroSlide key={index}>
+                            {/* img changes with arrow, index=0,1,2,3 */}
+                            {index===current&& (<HeroSlider>
+                                <HeroImage src={slide.img} alt={slide.alt} />
+                                <HeroContent>
+                                    <h1>{slide.title}</h1>
+                                    <h3>{slide.location}{slide.date}</h3>
+                                    <br />
+                                    <p>{slide.description1}</p>
+                                    <p>{slide.description2}</p>
+                                    <p>{slide.description3}</p>
+                                </HeroContent>
+                            </HeroSlider>)}
+                        </HeroSlide>
                     )
-                    })}
-                <IconRight>
-                    <FaArrowAltCircleRight onClick={nextSlide}/>
-                </IconRight>
-            </WorkDetailSection>
-            
-        </>
+                })}
+                <SliderButtons>
+                    <PrevArrow onClick={prevSlide}/>
+                    <NextArrow onClick={nextSlide}/>
+                </SliderButtons>
+            </HeroWrapper>
+        </HeroSection>
     )
 }
 
-export default NatureDescribe
+export default Hero

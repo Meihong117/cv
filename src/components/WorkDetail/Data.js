@@ -1,6 +1,6 @@
 import job1 from '../../images/job1.jpg' 
 import job2 from '../../images/job2.jpg' 
-import job3 from '../../images/job3.webp' 
+import job3 from '../../images/job3.jpg' 
 import job4 from '../../images/job4.jpg' 
 
 export const SlideData=[
