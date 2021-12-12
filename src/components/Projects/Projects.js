@@ -3,7 +3,7 @@ import {ProjectContainer,ProjectOl,ProjectDetail,ProjectH1,ProjectUl,ProjectLi,P
 import {FaGithub} from 'react-icons/fa'
 import Image from '../../images/hard.jpeg'
 
-import Video from '../../videos/projects.mp4'
+
 export const Projects = () => {
     return (
         <>
