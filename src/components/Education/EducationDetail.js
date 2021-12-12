@@ -19,7 +19,6 @@ const EducationDetail = () => {
                         {Data.map((item,index)=>{
                             return (
                                 <>
-                                
                                 <Wrap onClick={()=>toggle(index)} key={index}>
                                     <h1>{item.degree}</h1>
                                     <span>{clicked===index? <FiChevronsDown />:<FiChevronsUp />}</span>

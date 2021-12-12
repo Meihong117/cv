@@ -12,16 +12,16 @@ height: 100vh;
 background-image: url('graduate.jpg');
 
 `;
-export const BackgroundImg=styled.div`
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 100%;
-overflow: hidden;
-`;
+// export const BackgroundImg=styled.div`
+// position: absolute;
+// top: 0;
+// right: 0;
+// bottom: 0;
+// left: 0;
+// width: 100%;
+// height: 100%;
+// overflow: hidden;
+// `;
 
 export const VideoBg=styled.img`
 position: absolute;
@@ -30,7 +30,6 @@ left: 0;
 width: 100vw;
 height: 100vh;
 object-fit: cover;
-/* background: #232a34; */
 `;
 export const Contanier=styled.div`
 position: absolute;
@@ -51,7 +50,14 @@ cursor: pointer;
 
 h1{
     padding: 1rem;
-    font-size: 22px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:480){
+    h1{
+    padding: 0.5rem;
+    font-size: 18px;
+}
 }
 
 `;
