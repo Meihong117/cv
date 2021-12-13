@@ -9,6 +9,8 @@ import react from '../../images/react.png'
 import restful from '../../images/restful.webp'
 import sql from '../../images/sql.png'
 import vue from '../../images/vue.jpeg'
+import ux from '../../images/ux.png'
+import python from '../../images/python.jpg'
 
 
 
@@ -37,7 +39,7 @@ export const Data =[
     {
         img: azure,
         alt:"Azure",
-        familiarity: "⭐⭐⭐"
+        familiarity: "⭐⭐"
     },
     {
         img: csharp,
@@ -69,5 +71,14 @@ export const Data =[
         alt:"MySQL",
         familiarity: "⭐⭐⭐⭐"
     },
-    
+    {
+        img: ux,
+        alt:"UX/UI",
+        familiarity: "⭐⭐⭐"
+    },
+    {
+        img: python,
+        alt:"Python",
+        familiarity: "⭐⭐"
+    },
 ]
