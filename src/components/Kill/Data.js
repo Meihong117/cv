@@ -13,8 +13,6 @@ import ux from '../../images/ux.png'
 import python from '../../images/python.jpg'
 
 
-
-
 export const Data =[
     {
         img: css,
