@@ -69,9 +69,9 @@ margin-bottom: 10px;
 `;
 
 export const ServicesH1=styled.h1`
-font-size: 2.5rem;
+font-size: 26px;
 margin-bottom: 64px;
-color:#fff;
+color:#02c2f7;
 
 @media screen and (max-width: 480px){
     font-size: 2rem;

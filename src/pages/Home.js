@@ -7,6 +7,8 @@ import NavBar from '../components/NavBar/NavBar'
 import Projects  from '../components/Projects/Projects'
 import WorkHistory from '../components/WorkHistory/WorkHistory'
 import SideBar from '../components/Sidebar/SideBar'
+import Hire from '../components/Hire/Hire'
+
 
 const Home = () => {
 const [isOpen, setIsOpen]=useState(false)
@@ -22,10 +24,9 @@ const toggle=()=>{
             <Summary />
             <InfoSection {...homeObjectEducation}/>
             <InfoSection {...homeObjectProject}/>
-            {/* <Projects /> */}
             <InfoSection {...homeObjectSkill}/>
             <WorkHistory />
-            <InfoSection {...homeObjectThree}/>
+            <Hire />
             <Footer />
 
 
