@@ -2,9 +2,9 @@ export const Data=[
     {
         university:'University Of Canterbury - New Zealand - 06/2019',
         degree: 'Graduate Diploma in Computer Science',
-        description1:'Web Computing Architectures (CSS/HTML/JS/Vuejs)',
-        description2:'Humans and Computers (UX/UI-Figma)',
-        description3:'Introduction to Programming with Databases (C# .NET framework)',
+        description1:'Web Computing Architectures',
+        description2:'Humans and Computers',
+        description3:'Introduction to Programming with Databases',
         description4:'Operating Systems',
         description5:'Data and Network Security',
         description6:'Computer Graphics',
