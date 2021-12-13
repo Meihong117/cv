@@ -63,7 +63,7 @@ margin-left: 25px;
 
 export const NavDetail=styled.h5`
 color: #fff;
-cursor: pointer;
+
 `
 
 export const MobileIcon = styled.div`
