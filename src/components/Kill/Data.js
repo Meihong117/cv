@@ -44,7 +44,7 @@ export const Data =[
     {
         img: csharp,
         alt:"C#",
-        familiarity: "⭐⭐"
+        familiarity: "⭐"
     },
     {
         img: vue,
@@ -59,12 +59,12 @@ export const Data =[
     {
         img: nodeexpress,
         alt:"Node + Express",
-        familiarity: "⭐⭐⭐"
+        familiarity: "⭐⭐"
     },
     {
         img: restful,
         alt:"Restful API",
-        familiarity: "⭐⭐⭐"
+        familiarity: "⭐⭐"
     },
     {
         img: sql,
@@ -74,7 +74,7 @@ export const Data =[
     {
         img: ux,
         alt:"UX/UI",
-        familiarity: "⭐⭐⭐"
+        familiarity: "⭐"
     },
     {
         img: python,
