@@ -83,6 +83,20 @@ p{
 p::before{
     content: "# ";
 }
+
+@media screen and (max-width:768px){
+    h1{
+    font-size: 25px;
+    }
+    h3{
+    font-size: 20px;
+    }
+    p{
+    font-size: 15px;
+    
+    margin-bottom: 1.2rem;
+}
+}
 `;
 
 export const arrowButtons=css`

@@ -20,7 +20,7 @@ export const SlideData=[
         location:'Daphne\'s Restaurant, Christchurch ',
         description1:'Address guests\' concerns and resolve all issues to guests\' satisfaction',
         description2:'Maintain positive team environment by encouraging teamwork and respect each other',
-        description3:'Prioritize serving tasks accordingly'
+        description3:'Managed front of house operations including greeting and interacting with diners'
     },
     {
         img:job3,
