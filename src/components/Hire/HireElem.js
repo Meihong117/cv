@@ -18,6 +18,17 @@ align-items: center;
         padding: 100px 0;
  }
 `
+export const HireForm=styled.form`
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+
+@media screen and (max-width:768px){
+        padding: 0;
+ }  
+`;
 
 export const HireImg=styled.img`
 width: 400px;
@@ -39,13 +50,6 @@ font-size: 26px;
 }
 `;
 
-export const HireForm=styled.form`
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-left: 15px;
-`;
 
 export const HireInput=styled.input`
 width: 500px;

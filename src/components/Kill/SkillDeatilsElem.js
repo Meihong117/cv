@@ -25,7 +25,7 @@ text-align: center;
 background-color: #f0f2f5;
 border-radius: 10px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-
+border-radius: 10px;
 
 h3{
     font-size: 20px;
