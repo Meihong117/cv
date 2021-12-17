@@ -82,6 +82,13 @@ max-width: 800px;
     font-size: 18px;
 }
 `;
+export const Description=styled.p`
+color: #fff;
+text-align: center;
+
+`
+
+
 
 export const HeroBtnWrapper =styled.div`
 margin-top: 32px;
