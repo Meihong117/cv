@@ -16,7 +16,7 @@ const Hero = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>SUMMARY</HeroH1>
-                <HeroP>I graduated from the University of Canterbury in Computer Science, have excellent skills with programming languages like JavaScript(ES6), HTML5, CSS3 and understand CI/CD, Agile etc.
+                <HeroP>Hi, I'm Estelle, I graduated from the University of Canterbury in Computer Science, have excellent skills with programming languages like JavaScript(ES6), HTML5, CSS3 and understand Azure, CI/CD, Agile etc.
                     <br />
                     <br />
                     As a hard-working Supervisor, Manager and Consultant, have 3.5+ years customer services and training work experience. I am a fast learner, pay great attention to details, patient and like to overcome difficult challenges.</HeroP>
