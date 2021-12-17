@@ -24,7 +24,7 @@ const Hero = () => {
                     <br />
                 </HeroP>
                 <Description>
-                    * This website developed with Azure Static Web App and Github *
+                    * This website developed with Azure Static Web App,Github,ReactJs *
                 </Description>
                 {/* <HeroBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Get Started {hover? <ArrowForward />: <ArrowRight />}</Button>
