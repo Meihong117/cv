@@ -74,6 +74,7 @@ h1{
 }
 h3{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 p{
     font-size: 18px;
@@ -102,9 +103,9 @@ p::before{
 export const arrowButtons=css`
 width:50px;
 height: 50px;
-color:#fff;
+color:black;
 cursor: pointer;
-background: #000d1a;
+background: #fff;
 border-radius: 50px;
 padding: 10px;
 margin-right: 1rem;

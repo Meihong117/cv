@@ -16,17 +16,16 @@ const Footer = () => {
                         <FooterLinkItems>
                             {/* 1 */}
                             <FooterLinktitle>REFEREES</FooterLinktitle>
-                                <FooterLink >Two Fat Stags</FooterLink>
+                                <FooterLink >TWO FAT STAGS</FooterLink>
                                 <FooterLink >Karen Ansell (Owner)</FooterLink>
                                 <FooterLink >027-2291275</FooterLink>
                                 <FooterLink >twofatstags@gmail.com</FooterLink>
-                                <br />
-                                <FooterLink >Silver Fern Farms</FooterLink>
+                                <FooterLink />
+                                <FooterLink >SILVER FERN FARMS</FooterLink>
                                 <FooterLink >David Peterson</FooterLink>
                                 <FooterLink >027-8580804</FooterLink>
                                 <FooterLink >David.g.peterson@silverfernfarms.co.nz</FooterLink>
                         </FooterLinkItems>
-                      
                     </FooterLinksWrapper>
                     { /* 2nd */}
                     <FooterLinksWrapper>
@@ -40,7 +39,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinktitle>HOBBIES</FooterLinktitle>
                                 <FooterLink >Learning new skills</FooterLink>
-                                <FooterLink t>Playing Pool</FooterLink>
+                                {/* <FooterLink t>Playing Pool</FooterLink> */}
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

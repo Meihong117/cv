@@ -53,7 +53,6 @@ const Hero = ({slides}) => {
                                 <HeroContent>
                                     <h1>{slide.title}</h1>
                                     <h3>{slide.location}{slide.date}</h3>
-                                    <br />
                                     <p>{slide.description1}</p>
                                     <p>{slide.description2}</p>
                                     <p>{slide.description3}</p>
