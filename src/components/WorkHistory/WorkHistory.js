@@ -17,7 +17,7 @@ const services = ({workDetail}) => {
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2 to='work'>FRONT OF HOUSE</ServicesH2>
-                    <ServicesP>10/2020 - Current</ServicesP>
+                    <ServicesP>10/2020 - 01/2022</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>

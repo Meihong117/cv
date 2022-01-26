@@ -7,7 +7,7 @@ export const SlideData=[
     {
         img:job1,
         title:'FRONT OF HOUSE',
-        date:'(10/2020 - 12/2021)',
+        date:'(10/2020 - 01/2022)',
         location:'Two Fat Stags, Balclutha, OTA ',
         description1:'Update and maintain restaurant website via Wix',
         description2:'Control and maintain level of service, and pick up phone calls and take notes',
