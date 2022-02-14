@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {HeroContainer, HeroBg, VideoBg,HeroContent,HeroH1, HeroP,Description,ArrowForward,ArrowRight} from './SummaryElem'
+import {HeroContainer, HeroBg, VideoBg,HeroContent,HeroH1, HeroP,Description} from './SummaryElem'
 import Video from '../../videos/video.mp4'
 import {Button} from '../ButtonElements'
 
@@ -26,9 +26,7 @@ const Hero = () => {
                 <Description>
                     * This website developed with Azure Static Web App,Github,ReactJs *
                 </Description>
-                {/* <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' spy={true} smooth={true} offset={-80} duration={500} exact='true'>Get Started {hover? <ArrowForward />: <ArrowRight />}</Button>
-                </HeroBtnWrapper> */}
+                
             </HeroContent>
         </HeroContainer>
     )

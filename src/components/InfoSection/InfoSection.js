@@ -3,7 +3,7 @@ import {Button} from '../ButtonElements'
 import {InfoContainer, InfoWrapper, InfoRow, Column1, TextWrapper, TopLine, Heading, SubTitle, BtnWrap,Column2, ImgWrap, Img} from './InfoElements'
 
 
-const InfoSection = ({lightBg,id, imgStart, topLine1,topLine2, lightText, darkText,headline1, headline2, description1,description2,description3,description4, description5, description6, description7,description8,description9,description10, description11,description12,description13,description14,description15,description16, img, alt,buttonLabel,primary,dark,dark2,to}) => {
+const InfoSection = ({lightBg,id, imgStart, topLine1,topLine2, lightText, darkText,headline1, headline2, description1,description2,description3,description4, description5, description6, description7,description8,description9,description10, description11,description12,description13,description14,description15,description16,description17, img, alt,buttonLabel,primary,dark,dark2,to}) => {
     return (
        <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -13,12 +13,13 @@ const InfoSection = ({lightBg,id, imgStart, topLine1,topLine2, lightText, darkTe
                             <TextWrapper>
                                 {/* line1 */}
                                 <TopLine>{topLine1}</TopLine>
-                                <Heading lightText={lightText} >{headline1}</Heading>
+                                <Heading lightText={lightText}>{headline1}</Heading>
                                 <SubTitle darkText={darkText}>{description1}</SubTitle>
                                 {/* line2 */}
                                 <Heading lightText={lightText} >{headline2}</Heading>
                                 <SubTitle darkText={darkText}>{description2}</SubTitle>
                                 {/* Project */}
+                                <SubTitle darkText={darkText}>{description17}</SubTitle>
                                 <SubTitle darkText={darkText}>{description3}</SubTitle>
                                 <SubTitle darkText={darkText}>{description4}</SubTitle>
                                 <SubTitle darkText={darkText}>{description5}</SubTitle>

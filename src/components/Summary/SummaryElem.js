@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
+import {Link} from 'react-router-dom'
 
 export const HeroContainer=styled.div`
 background: #0c0c0c;
@@ -85,7 +86,7 @@ max-width: 800px;
 export const Description=styled.p`
 color: #fff;
 text-align: center;
-
+margin: 20px;
 `
 
 
@@ -107,6 +108,8 @@ export const ArrowRight =styled(MdKeyboardArrowRight)`
 margin-left: 8px;
 font-size: 20px;
 `;
+
+
 
 
 
