@@ -69,7 +69,7 @@ text-align: center;
 
 export const ProjectLink=styled.a`
 color: #fff;
-
+/* text-underline-position: under; */
 `
 
 export const ProjectOl=styled.ul`
@@ -79,9 +79,7 @@ margin: 10px;
 `;
 
 export const ProjectLiInside=styled.li`
-/* @media screen and (max-width:480px){
-    font-size: 11px;
-} */
+margin: 3px;
 `;
 
 export const ProjectUl=styled.ul`
