@@ -1,5 +1,5 @@
 import React from 'react'
-import Skill from '../components/Kill/SkillDetails'
+import Skill from '../components/Skill/SkillDetails'
 
 const SkillDetails = () => {
     return (
