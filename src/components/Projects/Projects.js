@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProjectContainer,Icon,BackImg,ProjectOl,ProjectH1,ProjectUl,ProjectLi,ProjectLiInside,ProjectLink,SocialIncoLink,ProjectWrapper,ProjectImg,Container} from './ProjectsEle'
+import {ProjectContainer,ProjectWrapperOut,Icon,BackImg,ProjectOl,ProjectH1,ProjectUl,ProjectLi,ProjectLiInside,ProjectLink,SocialIncoLink,ProjectWrapper,ProjectImg,Container} from './ProjectsEle'
 import {FaGithub} from 'react-icons/fa'
 import Image from '../../images/back1.jpg'
 import {Data} from './Data'
@@ -9,6 +9,7 @@ const Projects = () => {
     return (
         <>
             <ProjectContainer id="project">
+                <ProjectWrapperOut>
                     <BackImg>
                         <ProjectImg src={Image}/>
                     </BackImg>
@@ -39,6 +40,7 @@ const Projects = () => {
                                 })}
                         </Container>
                     </ProjectWrapper>
+                </ProjectWrapperOut>
             </ProjectContainer>
         </>
     )

@@ -2,11 +2,17 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const ProjectContainer=styled.div`
-
 padding: 0 100px;
 height: 710px;
 position: relative;
 z-index: 1;
+
+
+@media screen and (max-width:480px){
+    padding: 0 50px;
+} 
+`;
+export const ProjectWrapperOut=styled.div`
 
 `;
 

@@ -15,8 +15,11 @@ align-items: center;
 max-width: 1100px;
 margin: 0 auto;
 
-
-
+/* @media  screen and (max-width: 480px){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
 `;
 
 export const FooterLinksContainer=styled.div`
@@ -26,7 +29,6 @@ justify-content: center;
 
 @media screen and (max-width: 820px){
     padding-top: 32px;
-    /* margin-left: 5px; */
 }
 @media  screen and (max-width: 480px){
     display: grid;
@@ -55,10 +57,10 @@ width: 160px;
 box-sizing: border-box;
 color: #fff;
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 480px){
     margin: 0;
-    padding: 10px;
-    width: 100%;
+    padding: 5px;
+    width: 130px;
 
 }
 `;

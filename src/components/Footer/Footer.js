@@ -16,15 +16,6 @@ const Footer = () => {
                         <FooterLinkItems>
                             {/* 1 */}
                             <FooterLinktitle>REFEREES</FooterLinktitle>
-                                {/* <FooterLink >TWO FAT STAGS</FooterLink>
-                                <FooterLink >Karen Ansell (Owner)</FooterLink>
-                                <FooterLink >027-2291275</FooterLink>
-                                <FooterLink >twofatstags@gmail.com</FooterLink>
-                                <FooterLink />
-                                <FooterLink >SILVER FERN FARMS</FooterLink>
-                                <FooterLink >David Peterson</FooterLink>
-                                <FooterLink >027-8580804</FooterLink>
-                                <FooterLink >David.g.peterson@silverfernfarms.co.nz</FooterLink> */}
                                 <FooterLink>Reference can be provided on request</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
