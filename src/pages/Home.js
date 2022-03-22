@@ -28,8 +28,6 @@ const toggle=()=>{
             <WorkHistory />
             <Hire />
             <Footer />
-
-
         </>
     )
 }

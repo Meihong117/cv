@@ -76,11 +76,11 @@ text-align: center;
 max-width: 800px;
 
 @media screen and (max-width: 768px){
-    font-size: 24px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 480px){
-    font-size: 18px;
+    font-size: 12px;
 }
 `;
 export const Description=styled.p`

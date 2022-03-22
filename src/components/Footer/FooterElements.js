@@ -23,8 +23,10 @@ export const FooterLinksContainer=styled.div`
 display: flex;
 justify-content: center;
 
+
 @media screen and (max-width: 820px){
     padding-top: 32px;
+    /* margin-left: 5px; */
 }
 @media  screen and (max-width: 480px){
     display: grid;
@@ -39,6 +41,7 @@ margin: 0 70px;
 
 @media screen and (max-width: 820px){
     flex-direction: column;
+    margin: 5px;
 }
 `;
 

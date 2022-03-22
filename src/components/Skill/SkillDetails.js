@@ -4,7 +4,6 @@ import {Data} from './Data'
 
 
 const SkillDeatil = () => {
-  
     return (
         <>
             <SkillDeatilContainer>

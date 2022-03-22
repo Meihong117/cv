@@ -15,7 +15,6 @@ export const SkillCards=styled.div`
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-
 `;
 
 export const Card=styled.div`
