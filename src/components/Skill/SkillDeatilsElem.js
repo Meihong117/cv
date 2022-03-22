@@ -8,9 +8,8 @@ export const SkillDeatilContainer=styled.div`
 export const SkillWrapper=styled.div`
 display: flex;
 justify-content: center;
-z-index:3
-
-`;
+z-index:3;
+`
 
 export const SkillCards=styled.div`
 display: flex;
@@ -43,8 +42,8 @@ h3:hover{
 `;
 
 export const CardImg=styled.img`
-width: 250px;
-height: 250px;
+width: 230px;
+height: 230px;
 border-top: 10px;
 
 `;

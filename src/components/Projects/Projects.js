@@ -25,13 +25,13 @@ const Projects = () => {
                                     <>
                                     <ProjectOl >
                                             <ProjectLi>
-                                                <ProjectLink href={item.to} >{item.name}</ProjectLink>
+                                                <ProjectLink href={item.to} target='_blank'>{item.name}</ProjectLink>
                                             </ProjectLi>
                                             <ProjectUl>
-                                                <ProjectLiInside><ProjectLink href={item.to1}>{item.description1}</ProjectLink></ProjectLiInside>
-                                                <ProjectLiInside><ProjectLink href={item.to2}>{item.description2}</ProjectLink></ProjectLiInside>
-                                                <ProjectLiInside><ProjectLink href={item.to3}>{item.description3}</ProjectLink></ProjectLiInside>
-                                                <ProjectLiInside><ProjectLink href={item.to4}>{item.description4}</ProjectLink></ProjectLiInside>
+                                                <ProjectLiInside><ProjectLink href={item.to1} target='_blank'>{item.description1}</ProjectLink></ProjectLiInside>
+                                                <ProjectLiInside><ProjectLink href={item.to2} target='_blank'>{item.description2}</ProjectLink></ProjectLiInside>
+                                                <ProjectLiInside><ProjectLink href={item.to3} target='_blank'>{item.description3}</ProjectLink></ProjectLiInside>
+                                                <ProjectLiInside><ProjectLink href={item.to4} target='_blank'>{item.description4}</ProjectLink></ProjectLiInside>
                                             </ProjectUl>
                                         </ProjectOl> 
                                     </>

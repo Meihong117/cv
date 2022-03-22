@@ -35,9 +35,9 @@ export const Data =[
         familiarity: "⭐⭐⭐"
     },
     {
-        img: azure,
-        alt:"Azure",
-        familiarity: "⭐⭐"
+        img: vue,
+        alt:"VueJs",
+        familiarity: "⭐⭐⭐"
     },
     {
         img: csharp,
@@ -45,10 +45,21 @@ export const Data =[
         familiarity: "⭐"
     },
     {
-        img: vue,
-        alt:"VueJs",
-        familiarity: "⭐⭐⭐"
+        img: sql,
+        alt:"MySQL",
+        familiarity: "⭐⭐⭐⭐"
     },
+    {
+        img: python,
+        alt:"Python",
+        familiarity: "⭐⭐"
+    },
+    {
+        img: azure,
+        alt:"Azure",
+        familiarity: "⭐⭐"
+    },
+   
     {
         img: github,
         alt:"Github",
@@ -64,19 +75,11 @@ export const Data =[
         alt:"Restful API",
         familiarity: "⭐⭐"
     },
-    {
-        img: sql,
-        alt:"MySQL",
-        familiarity: "⭐⭐⭐⭐"
-    },
+    
     {
         img: ux,
         alt:"UX/UI",
         familiarity: "⭐"
     },
-    {
-        img: python,
-        alt:"Python",
-        familiarity: "⭐⭐"
-    },
+    
 ]
