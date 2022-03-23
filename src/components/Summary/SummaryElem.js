@@ -87,6 +87,7 @@ export const Description=styled.p`
 color: #fff;
 text-align: center;
 margin: 20px;
+
 `
 
 

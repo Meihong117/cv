@@ -24,7 +24,8 @@ const Hero = () => {
                     <br />
                 </HeroP>
                 <Description>
-                    * This website developed with Azure Static Web App,Github,ReactJs *
+                    * This website developed with Azure Static Web App,Github,ReactJs * <br />
+                    <a href="https://github.com/Meihong117/cv" style={{color:'#638bf7'}} target='_blank'>See the code</a>
                 </Description>
                 
             </HeroContent>
