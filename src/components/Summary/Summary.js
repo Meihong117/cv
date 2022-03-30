@@ -1,14 +1,8 @@
 import React,{useState} from 'react'
 import {HeroContainer, HeroBg, VideoBg,HeroContent,HeroH1, HeroP,Description} from './SummaryElem'
 import Video from '../../videos/video.mp4'
-import {Button} from '../ButtonElements'
 
 const Hero = () => {
-    const [hover, setHover]=useState(false);
-    const onHover=()=>{
-        setHover(!hover)
-    }
-
     return (
         <HeroContainer id='home'>
             <HeroBg>
