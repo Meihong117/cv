@@ -40,7 +40,7 @@ z-index: 3;
 max-width: 1200px;
 position: absolute;
 padding: 8px 24px;
-margin: 80px 0;
+margin: 50px 0;
 color: #fff;
 border:3px solid #fff;
 

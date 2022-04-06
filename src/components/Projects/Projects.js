@@ -21,23 +21,23 @@ const Projects = () => {
                             </SocialIncoLink>
                         </Icon>  
                         <Container>
-                                {Data.map((item,index)=>{
-                                return (
-                                    <>
-                                    <ProjectOl >
-                                            <ProjectLi>
-                                                <ProjectLink href={item.to} target='_blank'>{item.name}</ProjectLink>
-                                            </ProjectLi>
-                                            <ProjectUl>
-                                                <ProjectLiInside><ProjectLink href={item.to1} target='_blank'>{item.description1}</ProjectLink></ProjectLiInside>
-                                                <ProjectLiInside><ProjectLink href={item.to2} target='_blank'>{item.description2}</ProjectLink></ProjectLiInside>
-                                                <ProjectLiInside><ProjectLink href={item.to3} target='_blank'>{item.description3}</ProjectLink></ProjectLiInside>
-                                                <ProjectLiInside><ProjectLink href={item.to4} target='_blank'>{item.description4}</ProjectLink></ProjectLiInside>
-                                            </ProjectUl>
-                                        </ProjectOl> 
-                                    </>
-                                    )
-                                })}
+                            {Data.map((item,index)=>{
+                            return (
+                                <>
+                                <ProjectOl >
+                                        <ProjectLi>
+                                            <ProjectLink href={item.to} target='_blank'>{item.name}</ProjectLink>
+                                        </ProjectLi>
+                                        <ProjectUl>
+                                            <ProjectLiInside><ProjectLink href={item.to1} target='_blank'>{item.description1}</ProjectLink></ProjectLiInside>
+                                            <ProjectLiInside><ProjectLink href={item.to2} target='_blank'>{item.description2}</ProjectLink></ProjectLiInside>
+                                            <ProjectLiInside><ProjectLink href={item.to3} target='_blank'>{item.description3}</ProjectLink></ProjectLiInside>
+                                            <ProjectLiInside><ProjectLink href={item.to4} target='_blank'>{item.description4}</ProjectLink></ProjectLiInside>
+                                        </ProjectUl>
+                                    </ProjectOl> 
+                                </>
+                                )
+                            })}
                         </Container>
                     </ProjectWrapper>
                 </ProjectWrapperOut>
