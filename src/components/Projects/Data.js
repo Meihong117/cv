@@ -10,6 +10,14 @@ export const Data=[
         to2:'https://github.com/Meihong117/FunctionApp-Travel-api'
     },
     {
+        id: 'converter',
+        name:'Converter',
+        description1:'Frontend - Reactjs',
+        to:'https://wonderful-pond-0ddec9a10.1.azurestaticapps.net',
+        to1:'https://github.com/Meihong117/MAGIQ-test.git',
+        
+    },
+    {
         id: 'traveling-website',
         name:'Traveling Website',
         description1:'Frontend - Vuejs',
