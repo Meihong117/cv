@@ -1,6 +1,6 @@
 import React,{useRef} from 'react'
 import emailjs from 'emailjs-com'
-import {HireContainer,HireWrap,HireImg, HireTitle,HireForm,HireInput,HireTextarea,ButtonWrap} from './HireElem'
+import {HireContainer,HireWrap,HireImg, HireTitle,HireForm,HireInput,HireTextarea} from './HireElem'
 import {Button} from '../ButtonElements'
 import img3 from '../../images/img-3.svg'
 
@@ -9,12 +9,11 @@ const Hire = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_is2kanq', 'my_cv', form.current, 'user_liSXqvj72W6kNKPb8zqcg')
         .then((result) => {
-            console.log(result.text);
+            // console.log(result.text);
         }, (error) => {
-            console.log(error.text);
+            // console.log(error.text);
         });
         e.target.reset()
     };
@@ -33,7 +32,6 @@ const Hire = () => {
                     </HireForm>
                 </HireWrap>
             </HireContainer>
-        
         </>
     )
 }
