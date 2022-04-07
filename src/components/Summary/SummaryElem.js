@@ -79,9 +79,6 @@ max-width: 800px;
     font-size: 18px;
 }
 
-/* @media screen and (max-width: 480px){
-    font-size: 16px;
-} */
 `;
 export const Description=styled.p`
 color: #fff;
@@ -89,16 +86,12 @@ text-align: center;
 margin: 20px;
 
 `
-
-
-
 export const HeroBtnWrapper =styled.div`
 margin-top: 32px;
 display: flex;
 flex-direction: column;
 align-items: center;
 `;
-
 
 export const ArrowForward =styled(MdArrowForward)`
 margin-left: 8px;

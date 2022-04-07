@@ -17,12 +17,6 @@ transition: 0.3s ease-in-out;
 opacity: ${({isOpen})=>(isOpen? '100%':'0')};
 top: ${({isOpen})=>(isOpen? '0':'-100%')};
 
-/* @media screen and (max-width: 480px){
-    display: grid;
-    justify-content: center;
-    align-items: center;
-} */
-
 `
 
 export const Icon=styled.div`

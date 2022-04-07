@@ -44,11 +44,7 @@ margin: 50px 0;
 color: #fff;
 border:3px solid #fff;
 
-/* @media screen and (max-width:480px){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}  */
+
 `;
 export const Icon=styled.div`
 text-align: center;
@@ -57,10 +53,7 @@ export const ProjectH1=styled.h2`
 font-size: 20px;
 margin: 10px 0;
 text-align: center;
-/*
-@media screen and (max-width:480px){
-    font-size: 16px;
-} */
+
 `;
 //icon
 export const SocialIncoLink=styled.a`
@@ -75,7 +68,6 @@ text-align: center;
 
 export const ProjectLink=styled.a`
 color: #fff;
-/* text-underline-position: under; */
 `
 
 export const ProjectOl=styled.ul`
@@ -96,10 +88,7 @@ export const ProjectLi=styled.li`
 margin: 5px 0;
 font-size: 15px;
 font-weight: 800;
-/*
-@media screen and (max-width:480px){
-    font-size: 13px;
-} */
+
 `;
 
 export const SkillDetail=styled.div`

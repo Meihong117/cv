@@ -57,7 +57,7 @@ export const Data =[
     {
         img: azure,
         alt:"Azure",
-        familiarity: "⭐⭐"
+        familiarity: "⭐⭐⭐"
     },
    
     {
