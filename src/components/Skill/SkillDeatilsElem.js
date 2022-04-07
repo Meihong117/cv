@@ -30,9 +30,6 @@ h3{
     margin: 10px;
 }
 
-h3:hover{
-    color:#02c2f7;
-}
 &:hover{
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;   

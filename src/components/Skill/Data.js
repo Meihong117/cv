@@ -3,7 +3,7 @@ import csharp from '../../images/csharp.png'
 import css from '../../images/css.jpg'
 import github from '../../images/github.png'
 import html from '../../images/html.png'
-import js from '../../images/js.jpg'
+import js from '../../images/js.png'
 import nodeexpress from '../../images/nodeexpress.webp'
 import react from '../../images/react.png'
 import restful from '../../images/restful.webp'
@@ -42,16 +42,6 @@ export const Data =[
     {
         img: csharp,
         alt:"C#",
-        familiarity: "⭐"
-    },
-    {
-        img: sql,
-        alt:"MySQL",
-        familiarity: "⭐⭐⭐⭐"
-    },
-    {
-        img: python,
-        alt:"Python",
         familiarity: "⭐⭐"
     },
     {
@@ -65,6 +55,17 @@ export const Data =[
         alt:"Github",
         familiarity: "⭐⭐⭐"
     },
+    {
+        img: sql,
+        alt:"MySQL",
+        familiarity: "⭐⭐⭐⭐"
+    },
+    {
+        img: python,
+        alt:"Python",
+        familiarity: "⭐⭐"
+    },
+    
     {
         img: nodeexpress,
         alt:"Node + Express",
