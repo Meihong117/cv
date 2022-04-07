@@ -2,19 +2,20 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const ProjectContainer=styled.div`
-padding: 0 100px;
+padding: 0 150px;
 height: 710px;
 position: relative;
 z-index: 1;
 
 
+
 @media screen and (max-width:480px){
-    padding: 0 50px;
+    padding: 0 ;
+    display: flex;
+    justify-content: center;
 } 
 `;
-export const ProjectWrapperOut=styled.div`
 
-`;
 
 export const BackImg=styled.div`
 position: absolute;
