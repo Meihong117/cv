@@ -8,7 +8,6 @@ position: relative;
 z-index: 1;
 
 
-
 @media screen and (max-width:480px){
     padding: 0 ;
     display: flex;
@@ -69,6 +68,10 @@ text-align: center;
 
 export const ProjectLink=styled.a`
 color: #fff;
+
+&:hover{
+    color: #02c2f7;
+}
 `
 
 export const ProjectOl=styled.ul`
