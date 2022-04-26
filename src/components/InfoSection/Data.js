@@ -69,7 +69,8 @@ export const infoData=[
         primary: true,
         darkText:true,
         to:'skill'
-    }
+    },
+    
 ]
 
 

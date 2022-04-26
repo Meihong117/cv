@@ -6,19 +6,14 @@ height: 700px;
 display: flex;
 justify-content: center;
 align-items: center;
-
 `
 
 export const HireWrap=styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-
- @media screen and (max-width:768px){
-        padding: 100px 0;
- }
 `
-export const HireForm=styled.form`
+export const HireForm=styled.div`
     display: grid;
     justify-content: center;
     align-items: center;
@@ -27,7 +22,7 @@ export const HireForm=styled.form`
 
 @media screen and (max-width:768px){
         padding: 0;
- }  
+ } 
 `;
 
 export const HireImg=styled.img`
@@ -38,18 +33,19 @@ height: 100%;
     display: none;
 }
 ` 
-
 export const HireTitle =styled.h1`
-margin-bottom: 20px;
 color: #02c2f7;
-text-transform: uppercase;
 font-size: 26px;
-
-@media screen and (max-width:768px){
-    font-size:25px;
-}
+line-height: 16px;
+font-weight: 700;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+margin-bottom: 16px;
+/* text-align:center; */
 `;
-
+export const InputWrap=styled.div`
+width: 500px;
+`
 
 export const HireInput=styled.input`
 width: 500px;
@@ -72,10 +68,10 @@ margin: 10px;
  }
 `
 
+export const BtnWrap=styled.div`
+width: 500px;
+display: flex;
+align-items:center;
+justify-content: center;
 
-
-export const ButtonWrap=styled.div`
-display: grid;
-align-items: center;
-width: 200px;
 `
