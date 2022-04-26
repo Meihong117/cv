@@ -4,8 +4,6 @@ import {SlideData} from './Data'
 import {HeroSection, HeroWrapper, HeroSlide,HeroContent,HeroSlider,HeroImage, Button,SliderButtons,PrevArrow,NextArrow,Arrow} from './WorkDetailElems'
 
 
-
-// ======================================================================================
 const Hero = ({slides}) => {
     const [current, setCurrent]=useState(0)
     const length=slides.length

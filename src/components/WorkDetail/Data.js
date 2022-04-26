@@ -2,8 +2,30 @@ import job1 from '../../images/job1.jpg'
 import job2 from '../../images/job2.jpg' 
 import job3 from '../../images/job3.jpg' 
 import job4 from '../../images/job4.jpg' 
+import job5 from '../../images/job5.jpg' 
+import job6 from '../../images/job6.webp' 
 
 export const SlideData=[
+    {
+        img:job5,
+        title:'GRADUATE DEVELOPER',
+        date:'(05/2022 - Present)',
+        location:'Magiq Software, Napier, Hawke\'s Bay',
+        description1:'',
+        description2:'',
+        description3:''
+    },
+    {
+        img:job6,
+        title:'KOREAN-CHINESE TRANSLATOR',
+        date:'(04/2022 - Present)',
+        location:'Remote',
+        description1:'Translate Korean comic books into Chinese',
+        description2:'',
+        description3:''
+    },
+    
+    
     {
         img:job1,
         title:'FRONT OF HOUSE',
