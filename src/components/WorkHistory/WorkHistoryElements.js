@@ -9,34 +9,34 @@ justify-content: center;
 align-items: center;
 background: #010606;
 
-@media screen and (max-width: 960px){
+/* @media screen and (max-width: 960px){
     height: 900px;
-}
+} */
 /* @media screen and (max-width: 480px){
     height: 1300px;
 } */
 `;
 export const ServicesWrapper=styled.div`
-max-width: 1000px;
+width: 800px;
+height: 300px;
+overflow-x: auto;
 margin: 0 auto;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-align-items: center;
-justify-content: center;
+display: flex;
 grid-gap: 16px;
-padding: 0 50px;
+text-align: center;
 
-@media screen and (max-width: 1000px){
-    grid-template-columns: 1fr 1fr;
-}
 @media screen and (max-width: 768px){
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     padding: 0 20px;
+    width: 600px;
+
 }
 @media screen and (max-width: 480px){
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+    display: grid;
     padding: 0 20px;
-    height: 700px;
+    width: 300px;
+    height: 600px;
     overflow: scroll;
 }
 `;
@@ -50,8 +50,8 @@ justify-content:center;
 align-items: center;
 border-radius: 10px;
 height: 280px;
-
-padding: 30px;
+width: 250px;
+padding: 20px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
 
@@ -69,12 +69,16 @@ margin-bottom: 10px;
 `;
 
 export const ServicesH1=styled.h1`
+color: #02c2f7;
 font-size: 26px;
-margin-bottom: 64px;
-color:#02c2f7;
+line-height: 16px;
+font-weight: 700;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+margin-bottom: 16px;
 
 @media screen and (max-width: 480px){
-    font-size: 2rem;
+    margin-bottom: 15px;
 }
 `;
 
